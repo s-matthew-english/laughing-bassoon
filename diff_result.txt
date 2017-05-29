@@ -1,0 +1,709 @@
+Only in go-ethereum/: .dockerignore
+Only in go-ethereum/.git: FETCH_HEAD
+Files go-ethereum/.git/HEAD and quorum/.git/HEAD differ
+Files go-ethereum/.git/config and quorum/.git/config differ
+Files go-ethereum/.git/index and quorum/.git/index differ
+Files go-ethereum/.git/logs/HEAD and quorum/.git/logs/HEAD differ
+Files go-ethereum/.git/logs/refs/heads/master and quorum/.git/logs/refs/heads/master differ
+Only in go-ethereum/.git/logs/refs/heads: release
+Files go-ethereum/.git/logs/refs/remotes/origin/HEAD and quorum/.git/logs/refs/remotes/origin/HEAD differ
+Only in quorum/.git/objects/pack: pack-8e592620716e79ae65ba799fb710f2ac0a1a58b2.idx
+Only in quorum/.git/objects/pack: pack-8e592620716e79ae65ba799fb710f2ac0a1a58b2.pack
+Only in go-ethereum/.git/objects/pack: pack-930bede8f146646f44ba6f2140f12a0fc51cbc6f.idx
+Only in go-ethereum/.git/objects/pack: pack-930bede8f146646f44ba6f2140f12a0fc51cbc6f.pack
+Files go-ethereum/.git/packed-refs and quorum/.git/packed-refs differ
+Files go-ethereum/.git/refs/heads/master and quorum/.git/refs/heads/master differ
+Only in go-ethereum/.git/refs/heads: release
+Files go-ethereum/.github/CONTRIBUTING.md and quorum/.github/CONTRIBUTING.md differ
+Files go-ethereum/.github/ISSUE_TEMPLATE.md and quorum/.github/ISSUE_TEMPLATE.md differ
+Files go-ethereum/.gitignore and quorum/.gitignore differ
+Files go-ethereum/.mailmap and quorum/.mailmap differ
+Files go-ethereum/.travis.yml and quorum/.travis.yml differ
+Files go-ethereum/AUTHORS and quorum/AUTHORS differ
+Only in quorum/: BUILDING.md
+Only in go-ethereum/: Dockerfile
+Files go-ethereum/Makefile and quorum/Makefile differ
+Files go-ethereum/README.md and quorum/README.md differ
+Files go-ethereum/VERSION and quorum/VERSION differ
+Only in quorum/: _data
+Files go-ethereum/accounts/abi/abi.go and quorum/accounts/abi/abi.go differ
+Files go-ethereum/accounts/abi/abi_test.go and quorum/accounts/abi/abi_test.go differ
+Files go-ethereum/accounts/abi/argument.go and quorum/accounts/abi/argument.go differ
+Files go-ethereum/accounts/abi/bind/auth.go and quorum/accounts/abi/bind/auth.go differ
+Files go-ethereum/accounts/abi/bind/backend.go and quorum/accounts/abi/bind/backend.go differ
+Files go-ethereum/accounts/abi/bind/backends/simulated.go and quorum/accounts/abi/bind/backends/simulated.go differ
+Files go-ethereum/accounts/abi/bind/base.go and quorum/accounts/abi/bind/base.go differ
+Files go-ethereum/accounts/abi/bind/bind.go and quorum/accounts/abi/bind/bind.go differ
+Files go-ethereum/accounts/abi/bind/bind_test.go and quorum/accounts/abi/bind/bind_test.go differ
+Files go-ethereum/accounts/abi/bind/template.go and quorum/accounts/abi/bind/template.go differ
+Files go-ethereum/accounts/abi/bind/util_test.go and quorum/accounts/abi/bind/util_test.go differ
+Files go-ethereum/accounts/abi/event.go and quorum/accounts/abi/event.go differ
+Files go-ethereum/accounts/abi/packing.go and quorum/accounts/abi/packing.go differ
+Files go-ethereum/accounts/abi/reflect.go and quorum/accounts/abi/reflect.go differ
+Files go-ethereum/accounts/abi/type.go and quorum/accounts/abi/type.go differ
+Only in go-ethereum/accounts/abi: type_test.go
+Only in quorum/accounts: account_manager.go
+Only in go-ethereum/accounts: accounts.go
+Only in quorum/accounts: accounts_test.go
+Only in quorum/accounts: addrcache.go
+Only in quorum/accounts: addrcache_test.go
+Only in go-ethereum/accounts: errors.go
+Only in go-ethereum/accounts: hd.go
+Only in go-ethereum/accounts: hd_test.go
+Only in quorum/accounts: key.go
+Only in quorum/accounts: key_store_passphrase.go
+Only in quorum/accounts: key_store_passphrase_test.go
+Only in quorum/accounts: key_store_plain.go
+Only in quorum/accounts: key_store_test.go
+Only in go-ethereum/accounts: keystore
+Only in go-ethereum/accounts: manager.go
+Only in quorum/accounts: presale.go
+Only in quorum/accounts: testdata
+Only in go-ethereum/accounts: url.go
+Only in go-ethereum/accounts: usbwallet
+Only in quorum/accounts: watch.go
+Only in quorum/accounts: watch_fallback.go
+Files go-ethereum/appveyor.yml and quorum/appveyor.yml differ
+Files go-ethereum/build/ci-notes.md and quorum/build/ci-notes.md differ
+Files go-ethereum/build/ci.go and quorum/build/ci.go differ
+Files go-ethereum/build/env.sh and quorum/build/env.sh differ
+Only in go-ethereum/build: mvn.pom
+Only in go-ethereum/build: mvn.settings
+Only in go-ethereum/build: nsis.envvarupdate.nsh
+Only in go-ethereum/build: nsis.geth.nsi
+Only in go-ethereum/build: nsis.install.nsh
+Only in go-ethereum/build: nsis.pathupdate.nsh
+Only in go-ethereum/build: nsis.simplefc.dll
+Only in go-ethereum/build: nsis.simplefc.source.zip
+Only in go-ethereum/build: nsis.uninstall.nsh
+Only in go-ethereum/build: pod.podspec
+Files go-ethereum/build/update-license.go and quorum/build/update-license.go differ
+Files go-ethereum/cmd/abigen/main.go and quorum/cmd/abigen/main.go differ
+Files go-ethereum/cmd/bootnode/main.go and quorum/cmd/bootnode/main.go differ
+Files go-ethereum/cmd/disasm/main.go and quorum/cmd/disasm/main.go differ
+Only in quorum/cmd/ethtest: .bowerrc
+Only in quorum/cmd/ethtest: .editorconfig
+Only in quorum/cmd/ethtest: .gitignore
+Only in quorum/cmd/ethtest: .jshintrc
+Only in quorum/cmd/ethtest: .npmignore
+Only in quorum/cmd/ethtest: .travis.yml
+Files go-ethereum/cmd/ethtest/main.go and quorum/cmd/ethtest/main.go differ
+Only in quorum/cmd/evm: code.txt
+Only in quorum/cmd/evm: input.txt
+Files go-ethereum/cmd/evm/main.go and quorum/cmd/evm/main.go differ
+Files go-ethereum/cmd/geth/accountcmd.go and quorum/cmd/geth/accountcmd.go differ
+Files go-ethereum/cmd/geth/accountcmd_test.go and quorum/cmd/geth/accountcmd_test.go differ
+Files go-ethereum/cmd/geth/chaincmd.go and quorum/cmd/geth/chaincmd.go differ
+Files go-ethereum/cmd/geth/consolecmd.go and quorum/cmd/geth/consolecmd.go differ
+Files go-ethereum/cmd/geth/consolecmd_test.go and quorum/cmd/geth/consolecmd_test.go differ
+Only in go-ethereum/cmd/geth: dao_test.go
+Only in quorum/cmd/geth: info_test.json
+Only in quorum/cmd/geth: library.c
+Only in quorum/cmd/geth: library.go
+Only in quorum/cmd/geth: library_android.go
+Files go-ethereum/cmd/geth/main.go and quorum/cmd/geth/main.go differ
+Only in go-ethereum/cmd/geth: misccmd.go
+Files go-ethereum/cmd/geth/monitorcmd.go and quorum/cmd/geth/monitorcmd.go differ
+Files go-ethereum/cmd/geth/usage.go and quorum/cmd/geth/usage.go differ
+Files go-ethereum/cmd/gethrpctest/main.go and quorum/cmd/gethrpctest/main.go differ
+Only in go-ethereum/cmd: swarm
+Only in quorum/cmd/utils: bootnodes.go
+Files go-ethereum/cmd/utils/cmd.go and quorum/cmd/utils/cmd.go differ
+Files go-ethereum/cmd/utils/customflags.go and quorum/cmd/utils/customflags.go differ
+Files go-ethereum/cmd/utils/flags.go and quorum/cmd/utils/flags.go differ
+Only in quorum/cmd/utils: version.go
+Only in go-ethereum/cmd: wnode
+Files go-ethereum/common/big_test.go and quorum/common/big_test.go differ
+Files go-ethereum/common/bytes.go and quorum/common/bytes.go differ
+Files go-ethereum/common/bytes_test.go and quorum/common/bytes_test.go differ
+Files go-ethereum/common/compiler/solidity.go and quorum/common/compiler/solidity.go differ
+Files go-ethereum/common/compiler/solidity_test.go and quorum/common/compiler/solidity_test.go differ
+Files go-ethereum/common/format.go and quorum/common/format.go differ
+Only in go-ethereum/common: hexutil
+Only in quorum/common: httpclient
+Files go-ethereum/common/math/dist_test.go and quorum/common/math/dist_test.go differ
+Only in go-ethereum/common/math: exp.go
+Only in go-ethereum/common: mclock
+Only in quorum/common: registrar
+Files go-ethereum/common/types.go and quorum/common/types.go differ
+Files go-ethereum/common/types_test.go and quorum/common/types_test.go differ
+Files go-ethereum/compression/rle/read_write.go and quorum/compression/rle/read_write.go differ
+Files go-ethereum/console/bridge.go and quorum/console/bridge.go differ
+Files go-ethereum/console/console.go and quorum/console/console.go differ
+Files go-ethereum/console/console_test.go and quorum/console/console_test.go differ
+Files go-ethereum/console/prompter.go and quorum/console/prompter.go differ
+Files go-ethereum/containers/docker/develop-alpine/Dockerfile and quorum/containers/docker/develop-alpine/Dockerfile differ
+Files go-ethereum/containers/docker/develop-ubuntu/Dockerfile and quorum/containers/docker/develop-ubuntu/Dockerfile differ
+Files go-ethereum/containers/docker/master-alpine/Dockerfile and quorum/containers/docker/master-alpine/Dockerfile differ
+Files go-ethereum/containers/docker/master-ubuntu/Dockerfile and quorum/containers/docker/master-ubuntu/Dockerfile differ
+Files go-ethereum/contracts/chequebook/cheque.go and quorum/contracts/chequebook/cheque.go differ
+Files go-ethereum/contracts/chequebook/cheque_test.go and quorum/contracts/chequebook/cheque_test.go differ
+Files go-ethereum/contracts/ens/ens_test.go and quorum/contracts/ens/ens_test.go differ
+Files go-ethereum/contracts/release/contract.sol and quorum/contracts/release/contract.sol differ
+Files go-ethereum/contracts/release/release.go and quorum/contracts/release/release.go differ
+Files go-ethereum/core/bench_test.go and quorum/core/bench_test.go differ
+Files go-ethereum/core/block_validator.go and quorum/core/block_validator.go differ
+Files go-ethereum/core/block_validator_test.go and quorum/core/block_validator_test.go differ
+Files go-ethereum/core/blockchain.go and quorum/core/blockchain.go differ
+Files go-ethereum/core/blockchain_test.go and quorum/core/blockchain_test.go differ
+Files go-ethereum/core/blocks.go and quorum/core/blocks.go differ
+Only in quorum/core: call_helper.go
+Files go-ethereum/core/chain_makers.go and quorum/core/chain_makers.go differ
+Files go-ethereum/core/chain_makers_test.go and quorum/core/chain_makers_test.go differ
+Files go-ethereum/core/chain_pow_test.go and quorum/core/chain_pow_test.go differ
+Only in quorum/core: config.go
+Files go-ethereum/core/dao.go and quorum/core/dao.go differ
+Only in go-ethereum/core: dao_test.go
+Files go-ethereum/core/database_util.go and quorum/core/database_util.go differ
+Files go-ethereum/core/database_util_test.go and quorum/core/database_util_test.go differ
+Files go-ethereum/core/default_genesis.go and quorum/core/default_genesis.go differ
+Only in quorum/core: dual_state_test.go
+Files go-ethereum/core/events.go and quorum/core/events.go differ
+Only in go-ethereum/core: evm.go
+Only in quorum/core: execution.go
+Files go-ethereum/core/genesis.go and quorum/core/genesis.go differ
+Files go-ethereum/core/headerchain.go and quorum/core/headerchain.go differ
+Only in quorum/core: private_state_test.go
+Only in quorum/core: quorum
+Files go-ethereum/core/state/iterator.go and quorum/core/state/iterator.go differ
+Files go-ethereum/core/state/iterator_test.go and quorum/core/state/iterator_test.go differ
+Files go-ethereum/core/state/journal.go and quorum/core/state/journal.go differ
+Files go-ethereum/core/state/managed_state_test.go and quorum/core/state/managed_state_test.go differ
+Files go-ethereum/core/state/state_object.go and quorum/core/state/state_object.go differ
+Files go-ethereum/core/state/state_test.go and quorum/core/state/state_test.go differ
+Files go-ethereum/core/state/statedb.go and quorum/core/state/statedb.go differ
+Files go-ethereum/core/state/statedb_test.go and quorum/core/state/statedb_test.go differ
+Files go-ethereum/core/state/sync.go and quorum/core/state/sync.go differ
+Files go-ethereum/core/state/sync_test.go and quorum/core/state/sync_test.go differ
+Files go-ethereum/core/state_processor.go and quorum/core/state_processor.go differ
+Files go-ethereum/core/state_transition.go and quorum/core/state_transition.go differ
+Files go-ethereum/core/tx_list.go and quorum/core/tx_list.go differ
+Files go-ethereum/core/tx_list_test.go and quorum/core/tx_list_test.go differ
+Files go-ethereum/core/tx_pool.go and quorum/core/tx_pool.go differ
+Files go-ethereum/core/tx_pool_test.go and quorum/core/tx_pool_test.go differ
+Files go-ethereum/core/types/block.go and quorum/core/types/block.go differ
+Files go-ethereum/core/types/block_test.go and quorum/core/types/block_test.go differ
+Files go-ethereum/core/types/bloom9.go and quorum/core/types/bloom9.go differ
+Only in quorum/core/types: json.go
+Only in quorum/core/types: json_test.go
+Only in go-ethereum/core/types: log.go
+Only in go-ethereum/core/types: log_test.go
+Files go-ethereum/core/types/receipt.go and quorum/core/types/receipt.go differ
+Files go-ethereum/core/types/transaction.go and quorum/core/types/transaction.go differ
+Only in go-ethereum/core/types: transaction_signing.go
+Only in go-ethereum/core/types: transaction_signing_test.go
+Files go-ethereum/core/types/transaction_test.go and quorum/core/types/transaction_test.go differ
+Files go-ethereum/core/types.go and quorum/core/types.go differ
+Files go-ethereum/core/vm/contract.go and quorum/core/vm/contract.go differ
+Files go-ethereum/core/vm/contracts.go and quorum/core/vm/contracts.go differ
+Files go-ethereum/core/vm/environment.go and quorum/core/vm/environment.go differ
+Files go-ethereum/core/vm/errors.go and quorum/core/vm/errors.go differ
+Files go-ethereum/core/vm/gas.go and quorum/core/vm/gas.go differ
+Only in go-ethereum/core/vm: gas_table.go
+Files go-ethereum/core/vm/instructions.go and quorum/core/vm/instructions.go differ
+Only in go-ethereum/core/vm: interface.go
+Only in quorum/core/vm: jit.go
+Only in quorum/core/vm: jit_optimiser.go
+Only in quorum/core/vm: jit_test.go
+Only in quorum/core/vm: jit_util.go
+Only in quorum/core/vm: jit_util_test.go
+Files go-ethereum/core/vm/jump_table.go and quorum/core/vm/jump_table.go differ
+Only in quorum/core/vm: jump_table_test.go
+Only in quorum/core/vm: log.go
+Only in quorum/core/vm: log_test.go
+Files go-ethereum/core/vm/logger.go and quorum/core/vm/logger.go differ
+Files go-ethereum/core/vm/logger_test.go and quorum/core/vm/logger_test.go differ
+Only in go-ethereum/core/vm: memory_table.go
+Only in go-ethereum/core/vm: noop.go
+Files go-ethereum/core/vm/opcodes.go and quorum/core/vm/opcodes.go differ
+Files go-ethereum/core/vm/runtime/env.go and quorum/core/vm/runtime/env.go differ
+Files go-ethereum/core/vm/runtime/runtime.go and quorum/core/vm/runtime/runtime.go differ
+Files go-ethereum/core/vm/runtime/runtime_test.go and quorum/core/vm/runtime/runtime_test.go differ
+Only in quorum/core/vm: segments.go
+Files go-ethereum/core/vm/stack.go and quorum/core/vm/stack.go differ
+Only in go-ethereum/core/vm: stack_table.go
+Only in quorum/core/vm: util_test.go
+Files go-ethereum/core/vm/vm.go and quorum/core/vm/vm.go differ
+Files go-ethereum/core/vm/vm_jit.go and quorum/core/vm/vm_jit.go differ
+Files go-ethereum/core/vm/vm_jit_fake.go and quorum/core/vm/vm_jit_fake.go differ
+Only in quorum/core: vm_env.go
+Files go-ethereum/crypto/crypto.go and quorum/crypto/crypto.go differ
+Files go-ethereum/crypto/crypto_test.go and quorum/crypto/crypto_test.go differ
+Files go-ethereum/crypto/ecies/asn1.go and quorum/crypto/ecies/asn1.go differ
+Files go-ethereum/crypto/ecies/ecies.go and quorum/crypto/ecies/ecies.go differ
+Files go-ethereum/crypto/ecies/ecies_test.go and quorum/crypto/ecies/ecies_test.go differ
+Files go-ethereum/crypto/secp256k1/curve.go and quorum/crypto/secp256k1/curve.go differ
+Only in go-ethereum/crypto/secp256k1: ext.h
+Files go-ethereum/crypto/secp256k1/libsecp256k1/.gitignore and quorum/crypto/secp256k1/libsecp256k1/.gitignore differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/.travis.yml and quorum/crypto/secp256k1/libsecp256k1/.travis.yml differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/Makefile.am and quorum/crypto/secp256k1/libsecp256k1/Makefile.am differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/README.md and quorum/crypto/secp256k1/libsecp256k1/README.md differ
+Only in go-ethereum/crypto/secp256k1/libsecp256k1: build-aux
+Files go-ethereum/crypto/secp256k1/libsecp256k1/configure.ac and quorum/crypto/secp256k1/libsecp256k1/configure.ac differ
+Only in go-ethereum/crypto/secp256k1/libsecp256k1: contrib
+Files go-ethereum/crypto/secp256k1/libsecp256k1/include/secp256k1.h and quorum/crypto/secp256k1/libsecp256k1/include/secp256k1.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/include/secp256k1_ecdh.h and quorum/crypto/secp256k1/libsecp256k1/include/secp256k1_ecdh.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/include/secp256k1_recovery.h and quorum/crypto/secp256k1/libsecp256k1/include/secp256k1_recovery.h differ
+Only in quorum/crypto/secp256k1/libsecp256k1/include: secp256k1_schnorr.h
+Files go-ethereum/crypto/secp256k1/libsecp256k1/libsecp256k1.pc.in and quorum/crypto/secp256k1/libsecp256k1/libsecp256k1.pc.in differ
+Only in go-ethereum/crypto/secp256k1/libsecp256k1: sage
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src: asm
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/bench_ecdh.c and quorum/crypto/secp256k1/libsecp256k1/src/bench_ecdh.c differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/bench_internal.c and quorum/crypto/secp256k1/libsecp256k1/src/bench_internal.c differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/bench_verify.c and quorum/crypto/secp256k1/libsecp256k1/src/bench_verify.c differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/ecdsa.h and quorum/crypto/secp256k1/libsecp256k1/src/ecdsa.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/ecdsa_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/ecdsa_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/eckey.h and quorum/crypto/secp256k1/libsecp256k1/src/eckey.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/eckey_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/eckey_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/ecmult_const_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/ecmult_const_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/ecmult_gen_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/ecmult_gen_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/ecmult_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/ecmult_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/field.h and quorum/crypto/secp256k1/libsecp256k1/src/field.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/field_10x26_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/field_10x26_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/field_5x52_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/field_5x52_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/field_5x52_int128_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/field_5x52_int128_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/field_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/field_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/group.h and quorum/crypto/secp256k1/libsecp256k1/src/group.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/group_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/group_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/hash.h and quorum/crypto/secp256k1/libsecp256k1/src/hash.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/hash_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/hash_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/java/org/bitcoin/NativeSecp256k1.java and quorum/crypto/secp256k1/libsecp256k1/src/java/org/bitcoin/NativeSecp256k1.java differ
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src/java/org/bitcoin: NativeSecp256k1Test.java
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src/java/org/bitcoin: NativeSecp256k1Util.java
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src/java/org/bitcoin: Secp256k1Context.java
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.c and quorum/crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.c differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.h and quorum/crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.h differ
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src/java: org_bitcoin_Secp256k1Context.c
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src/java: org_bitcoin_Secp256k1Context.h
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/ecdh/Makefile.am.include and quorum/crypto/secp256k1/libsecp256k1/src/modules/ecdh/Makefile.am.include differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/ecdh/main_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/modules/ecdh/main_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/ecdh/tests_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/modules/ecdh/tests_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/recovery/Makefile.am.include and quorum/crypto/secp256k1/libsecp256k1/src/modules/recovery/Makefile.am.include differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/recovery/main_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/modules/recovery/main_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/recovery/tests_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/modules/recovery/tests_impl.h differ
+Only in quorum/crypto/secp256k1/libsecp256k1/src/modules: schnorr
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/num.h and quorum/crypto/secp256k1/libsecp256k1/src/num.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/num_gmp_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/num_gmp_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/scalar.h and quorum/crypto/secp256k1/libsecp256k1/src/scalar.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/scalar_4x64_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/scalar_4x64_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/scalar_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/scalar_impl.h differ
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src: scalar_low.h
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src: scalar_low_impl.h
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/secp256k1.c and quorum/crypto/secp256k1/libsecp256k1/src/secp256k1.c differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/testrand.h and quorum/crypto/secp256k1/libsecp256k1/src/testrand.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/testrand_impl.h and quorum/crypto/secp256k1/libsecp256k1/src/testrand_impl.h differ
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/tests.c and quorum/crypto/secp256k1/libsecp256k1/src/tests.c differ
+Only in go-ethereum/crypto/secp256k1/libsecp256k1/src: tests_exhaustive.c
+Files go-ethereum/crypto/secp256k1/libsecp256k1/src/util.h and quorum/crypto/secp256k1/libsecp256k1/src/util.h differ
+Only in quorum/crypto/secp256k1: notes.go
+Only in quorum/crypto/secp256k1: pubkey_scalar_mul.h
+Files go-ethereum/crypto/secp256k1/secp256.go and quorum/crypto/secp256k1/secp256.go differ
+Files go-ethereum/crypto/secp256k1/secp256_test.go and quorum/crypto/secp256k1/secp256_test.go differ
+Files go-ethereum/crypto/sha3/sha3_test.go and quorum/crypto/sha3/sha3_test.go differ
+Only in quorum/: docs
+Files go-ethereum/errs/errors.go and quorum/errs/errors.go differ
+Files go-ethereum/errs/errors_test.go and quorum/errs/errors_test.go differ
+Files go-ethereum/eth/api.go and quorum/eth/api.go differ
+Files go-ethereum/eth/api_backend.go and quorum/eth/api_backend.go differ
+Files go-ethereum/eth/backend.go and quorum/eth/backend.go differ
+Files go-ethereum/eth/backend_test.go and quorum/eth/backend_test.go differ
+Files go-ethereum/eth/bad_block.go and quorum/eth/bad_block.go differ
+Files go-ethereum/eth/bind.go and quorum/eth/bind.go differ
+Only in quorum/eth: block_voting.go
+Files go-ethereum/eth/db_upgrade.go and quorum/eth/db_upgrade.go differ
+Files go-ethereum/eth/downloader/downloader.go and quorum/eth/downloader/downloader.go differ
+Files go-ethereum/eth/downloader/downloader_test.go and quorum/eth/downloader/downloader_test.go differ
+Files go-ethereum/eth/downloader/peer.go and quorum/eth/downloader/peer.go differ
+Files go-ethereum/eth/downloader/queue.go and quorum/eth/downloader/queue.go differ
+Files go-ethereum/eth/fetcher/fetcher_test.go and quorum/eth/fetcher/fetcher_test.go differ
+Files go-ethereum/eth/filters/api.go and quorum/eth/filters/api.go differ
+Files go-ethereum/eth/filters/api_test.go and quorum/eth/filters/api_test.go differ
+Files go-ethereum/eth/filters/filter.go and quorum/eth/filters/filter.go differ
+Files go-ethereum/eth/filters/filter_system.go and quorum/eth/filters/filter_system.go differ
+Files go-ethereum/eth/filters/filter_system_test.go and quorum/eth/filters/filter_system_test.go differ
+Files go-ethereum/eth/filters/filter_test.go and quorum/eth/filters/filter_test.go differ
+Only in go-ethereum/eth: gasprice
+Files go-ethereum/eth/handler.go and quorum/eth/handler.go differ
+Files go-ethereum/eth/handler_test.go and quorum/eth/handler_test.go differ
+Files go-ethereum/eth/helper_test.go and quorum/eth/helper_test.go differ
+Files go-ethereum/eth/protocol.go and quorum/eth/protocol.go differ
+Files go-ethereum/eth/protocol_test.go and quorum/eth/protocol_test.go differ
+Files go-ethereum/eth/sync.go and quorum/eth/sync.go differ
+Only in go-ethereum/eth: sync_test.go
+Files go-ethereum/ethclient/ethclient.go and quorum/ethclient/ethclient.go differ
+Files go-ethereum/ethclient/ethclient_test.go and quorum/ethclient/ethclient_test.go differ
+Files go-ethereum/ethdb/database.go and quorum/ethdb/database.go differ
+Files go-ethereum/ethdb/memory_database.go and quorum/ethdb/memory_database.go differ
+Only in go-ethereum/: ethstats
+Files go-ethereum/event/event.go and quorum/event/event.go differ
+Files go-ethereum/event/event_test.go and quorum/event/event_test.go differ
+Only in go-ethereum/event: example_feed_test.go
+Only in go-ethereum/event: example_scope_test.go
+Only in go-ethereum/event: example_subscription_test.go
+Only in go-ethereum/event: feed.go
+Only in go-ethereum/event: feed_test.go
+Files go-ethereum/event/filter/generic_filter.go and quorum/event/filter/generic_filter.go differ
+Only in go-ethereum/event: subscription.go
+Only in go-ethereum/event: subscription_test.go
+Only in quorum/: generators
+Files go-ethereum/interfaces.go and quorum/interfaces.go differ
+Files go-ethereum/internal/build/archive.go and quorum/internal/build/archive.go differ
+Only in go-ethereum/internal/build: azure.go
+Files go-ethereum/internal/build/env.go and quorum/internal/build/env.go differ
+Only in go-ethereum/internal/build: pgp.go
+Files go-ethereum/internal/build/util.go and quorum/internal/build/util.go differ
+Files go-ethereum/internal/ethapi/api.go and quorum/internal/ethapi/api.go differ
+Files go-ethereum/internal/ethapi/backend.go and quorum/internal/ethapi/backend.go differ
+Files go-ethereum/internal/ethapi/tracer.go and quorum/internal/ethapi/tracer.go differ
+Files go-ethereum/internal/ethapi/tracer_test.go and quorum/internal/ethapi/tracer_test.go differ
+Only in go-ethereum/internal: guide
+Only in quorum/internal/jsre: bignumber_js.go
+Only in go-ethereum/internal/jsre: deps
+Only in quorum/internal/jsre: ethereum_js.go
+Files go-ethereum/internal/jsre/jsre.go and quorum/internal/jsre/jsre.go differ
+Files go-ethereum/internal/jsre/pretty.go and quorum/internal/jsre/pretty.go differ
+Files go-ethereum/internal/web3ext/web3ext.go and quorum/internal/web3ext/web3ext.go differ
+Only in go-ethereum/: les
+Only in go-ethereum/light: lightchain.go
+Only in go-ethereum/light: lightchain_test.go
+Files go-ethereum/light/odr.go and quorum/light/odr.go differ
+Only in go-ethereum/light: odr_test.go
+Only in go-ethereum/light: odr_util.go
+Files go-ethereum/light/state.go and quorum/light/state.go differ
+Files go-ethereum/light/state_object.go and quorum/light/state_object.go differ
+Files go-ethereum/light/state_test.go and quorum/light/state_test.go differ
+Files go-ethereum/light/trie.go and quorum/light/trie.go differ
+Only in go-ethereum/light: txpool.go
+Only in go-ethereum/light: txpool_test.go
+Only in go-ethereum/light: vm_env.go
+Only in quorum/logger: example_test.go
+Files go-ethereum/logger/glog/glog.go and quorum/logger/glog/glog.go differ
+Only in quorum/logger: log.go
+Only in quorum/logger: log_raft_checkpoint.go
+Only in quorum/logger: loggers.go
+Only in quorum/logger: loggers_test.go
+Only in quorum/logger: logsystem.go
+Only in quorum/logger: sys.go
+Only in quorum/logger: types.go
+Files go-ethereum/metrics/disk_linux.go and quorum/metrics/disk_linux.go differ
+Files go-ethereum/metrics/metrics.go and quorum/metrics/metrics.go differ
+Only in go-ethereum/: miner
+Only in go-ethereum/: mobile
+Files go-ethereum/node/api.go and quorum/node/api.go differ
+Files go-ethereum/node/config.go and quorum/node/config.go differ
+Files go-ethereum/node/config_test.go and quorum/node/config_test.go differ
+Files go-ethereum/node/node.go and quorum/node/node.go differ
+Files go-ethereum/node/node_example_test.go and quorum/node/node_example_test.go differ
+Files go-ethereum/node/node_test.go and quorum/node/node_test.go differ
+Files go-ethereum/p2p/dial.go and quorum/p2p/dial.go differ
+Files go-ethereum/p2p/dial_test.go and quorum/p2p/dial_test.go differ
+Files go-ethereum/p2p/discover/database.go and quorum/p2p/discover/database.go differ
+Files go-ethereum/p2p/discover/database_test.go and quorum/p2p/discover/database_test.go differ
+Files go-ethereum/p2p/discover/node.go and quorum/p2p/discover/node.go differ
+Files go-ethereum/p2p/discover/table.go and quorum/p2p/discover/table.go differ
+Files go-ethereum/p2p/discover/table_test.go and quorum/p2p/discover/table_test.go differ
+Files go-ethereum/p2p/discover/udp.go and quorum/p2p/discover/udp.go differ
+Only in quorum/p2p/discover: udp_notwindows.go
+Files go-ethereum/p2p/discover/udp_test.go and quorum/p2p/discover/udp_test.go differ
+Only in quorum/p2p/discover: udp_windows.go
+Only in go-ethereum/p2p: discv5
+Files go-ethereum/p2p/nat/nat_test.go and quorum/p2p/nat/nat_test.go differ
+Files go-ethereum/p2p/nat/natpmp.go and quorum/p2p/nat/natpmp.go differ
+Only in go-ethereum/p2p: netutil
+Files go-ethereum/p2p/peer_test.go and quorum/p2p/peer_test.go differ
+Only in quorum/p2p: permissions.go
+Files go-ethereum/p2p/rlpx.go and quorum/p2p/rlpx.go differ
+Files go-ethereum/p2p/server.go and quorum/p2p/server.go differ
+Only in go-ethereum/params: bootnodes.go
+Only in go-ethereum/params: config.go
+Files go-ethereum/params/gas_table.go and quorum/params/gas_table.go differ
+Files go-ethereum/params/protocol_params.go and quorum/params/protocol_params.go differ
+Only in quorum/params: quorum.go
+Files go-ethereum/params/util.go and quorum/params/util.go differ
+Only in go-ethereum/params: version.go
+Only in quorum/: permissioned-nodes-sample.json
+Only in quorum/: permissioned-nodes.json
+Only in quorum/pow: dagger
+Only in quorum/pow: ezp
+Only in quorum/: private
+Only in quorum/: raft
+Files go-ethereum/rpc/client.go and quorum/rpc/client.go differ
+Files go-ethereum/rpc/json.go and quorum/rpc/json.go differ
+Files go-ethereum/rpc/server.go and quorum/rpc/server.go differ
+Files go-ethereum/rpc/subscription.go and quorum/rpc/subscription.go differ
+Files go-ethereum/rpc/subscription_test.go and quorum/rpc/subscription_test.go differ
+Files go-ethereum/rpc/types.go and quorum/rpc/types.go differ
+Only in quorum/rpc: types_test.go
+Files go-ethereum/swarm/api/api.go and quorum/swarm/api/api.go differ
+Files go-ethereum/swarm/api/config.go and quorum/swarm/api/config.go differ
+Files go-ethereum/swarm/api/config_test.go and quorum/swarm/api/config_test.go differ
+Files go-ethereum/swarm/api/filesystem.go and quorum/swarm/api/filesystem.go differ
+Files go-ethereum/swarm/api/filesystem_test.go and quorum/swarm/api/filesystem_test.go differ
+Files go-ethereum/swarm/api/http/roundtripper.go and quorum/swarm/api/http/roundtripper.go differ
+Files go-ethereum/swarm/api/http/roundtripper_test.go and quorum/swarm/api/http/roundtripper_test.go differ
+Files go-ethereum/swarm/api/http/server.go and quorum/swarm/api/http/server.go differ
+Only in go-ethereum/swarm/api/http: server_test.go
+Files go-ethereum/swarm/api/manifest.go and quorum/swarm/api/manifest.go differ
+Files go-ethereum/swarm/network/depo.go and quorum/swarm/network/depo.go differ
+Files go-ethereum/swarm/network/hive.go and quorum/swarm/network/hive.go differ
+Files go-ethereum/swarm/network/kademlia/kademlia_test.go and quorum/swarm/network/kademlia/kademlia_test.go differ
+Files go-ethereum/swarm/network/protocol.go and quorum/swarm/network/protocol.go differ
+Files go-ethereum/swarm/network/protocol_test.go and quorum/swarm/network/protocol_test.go differ
+Files go-ethereum/swarm/network/syncdb_test.go and quorum/swarm/network/syncdb_test.go differ
+Files go-ethereum/swarm/network/syncer.go and quorum/swarm/network/syncer.go differ
+Files go-ethereum/swarm/storage/chunker.go and quorum/swarm/storage/chunker.go differ
+Files go-ethereum/swarm/storage/common_test.go and quorum/swarm/storage/common_test.go differ
+Files go-ethereum/swarm/storage/dbstore.go and quorum/swarm/storage/dbstore.go differ
+Files go-ethereum/swarm/storage/dbstore_test.go and quorum/swarm/storage/dbstore_test.go differ
+Files go-ethereum/swarm/storage/dpa.go and quorum/swarm/storage/dpa.go differ
+Files go-ethereum/swarm/storage/dpa_test.go and quorum/swarm/storage/dpa_test.go differ
+Files go-ethereum/swarm/storage/localstore.go and quorum/swarm/storage/localstore.go differ
+Files go-ethereum/swarm/storage/memstore.go and quorum/swarm/storage/memstore.go differ
+Files go-ethereum/swarm/storage/netstore.go and quorum/swarm/storage/netstore.go differ
+Files go-ethereum/swarm/storage/types.go and quorum/swarm/storage/types.go differ
+Files go-ethereum/swarm/swarm.go and quorum/swarm/swarm.go differ
+Files go-ethereum/tests/block_test.go and quorum/tests/block_test.go differ
+Files go-ethereum/tests/block_test_util.go and quorum/tests/block_test_util.go differ
+Only in go-ethereum/tests/files/BlockchainTests: EIP150
+Only in go-ethereum/tests/files/BlockchainTests/Homestead: README.md
+Files go-ethereum/tests/files/BlockchainTests/Homestead/bcInvalidHeaderTest.json and quorum/tests/files/BlockchainTests/Homestead/bcInvalidHeaderTest.json differ
+Files go-ethereum/tests/files/BlockchainTests/Homestead/bcShanghaiLove.json and quorum/tests/files/BlockchainTests/Homestead/bcShanghaiLove.json differ
+Files go-ethereum/tests/files/BlockchainTests/Homestead/bcSuicideIssue.json and quorum/tests/files/BlockchainTests/Homestead/bcSuicideIssue.json differ
+Only in go-ethereum/tests/files/BlockchainTests: README.md
+Only in go-ethereum/tests/files/BlockchainTests/TestNetwork: README.md
+Files go-ethereum/tests/files/BlockchainTests/TestNetwork/bcEIP150Test.json and quorum/tests/files/BlockchainTests/TestNetwork/bcEIP150Test.json differ
+Files go-ethereum/tests/files/BlockchainTests/TestNetwork/bcTheDaoTest.json and quorum/tests/files/BlockchainTests/TestNetwork/bcTheDaoTest.json differ
+Files go-ethereum/tests/files/BlockchainTests/bcInvalidHeaderTest.json and quorum/tests/files/BlockchainTests/bcInvalidHeaderTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stBoundsTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stBoundsTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stCallCodes.json and quorum/tests/files/StateTests/EIP150/Homestead/stCallCodes.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stCallCreateCallCodeTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stCallCreateCallCodeTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stCallDelegateCodes.json and quorum/tests/files/StateTests/EIP150/Homestead/stCallDelegateCodes.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stCallDelegateCodesCallCode.json and quorum/tests/files/StateTests/EIP150/Homestead/stCallDelegateCodesCallCode.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stDelegatecallTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stDelegatecallTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stHomeSteadSpecific.json and quorum/tests/files/StateTests/EIP150/Homestead/stHomeSteadSpecific.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stInitCodeTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stInitCodeTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stLogTests.json and quorum/tests/files/StateTests/EIP150/Homestead/stLogTests.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stMemoryTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stMemoryTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stPreCompiledContracts.json and quorum/tests/files/StateTests/EIP150/Homestead/stPreCompiledContracts.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stQuadraticComplexityTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stQuadraticComplexityTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stRecursiveCreate.json and quorum/tests/files/StateTests/EIP150/Homestead/stRecursiveCreate.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stRefundTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stRefundTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stSpecialTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stSpecialTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stSystemOperationsTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stSystemOperationsTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stTransactionTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stTransactionTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/Homestead/stWalletTest.json and quorum/tests/files/StateTests/EIP150/Homestead/stWalletTest.json differ
+Only in go-ethereum/tests/files/StateTests/EIP150: README.md
+Only in go-ethereum/tests/files/StateTests/EIP150: stChangedTests.json
+Files go-ethereum/tests/files/StateTests/EIP150/stEIPSingleCodeGasPrices.json and quorum/tests/files/StateTests/EIP150/stEIPSingleCodeGasPrices.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/stEIPSpecificTest.json and quorum/tests/files/StateTests/EIP150/stEIPSpecificTest.json differ
+Files go-ethereum/tests/files/StateTests/EIP150/stMemExpandingEIPCalls.json and quorum/tests/files/StateTests/EIP150/stMemExpandingEIPCalls.json differ
+Only in go-ethereum/tests/files/StateTests: EIP158
+Only in go-ethereum/tests/files/StateTests/Homestead: README.md
+Files go-ethereum/tests/files/StateTests/Homestead/stDelegatecallTest.json and quorum/tests/files/StateTests/Homestead/stDelegatecallTest.json differ
+Files go-ethereum/tests/files/StateTests/Homestead/stPreCompiledContracts.json and quorum/tests/files/StateTests/Homestead/stPreCompiledContracts.json differ
+Files go-ethereum/tests/files/StateTests/Homestead/stSystemOperationsTest.json and quorum/tests/files/StateTests/Homestead/stSystemOperationsTest.json differ
+Files go-ethereum/tests/files/StateTests/Homestead/stTransactionTest.json and quorum/tests/files/StateTests/Homestead/stTransactionTest.json differ
+Only in go-ethereum/tests/files/StateTests: README.md
+Only in quorum/tests/files/StateTests: stDelegatecallTest.json
+Files go-ethereum/tests/files/StateTests/stPreCompiledContracts.json and quorum/tests/files/StateTests/stPreCompiledContracts.json differ
+Files go-ethereum/tests/files/StateTests/stSystemOperationsTest.json and quorum/tests/files/StateTests/stSystemOperationsTest.json differ
+Only in go-ethereum/tests/files/TransactionTests: EIP155
+Files go-ethereum/tests/files/TransactionTests/Homestead/ttTransactionTest.json and quorum/tests/files/TransactionTests/Homestead/ttTransactionTest.json differ
+Only in go-ethereum/tests/files/TransactionTests/Homestead: ttTransactionTestEip155VitaliksTests.json
+Files go-ethereum/tests/files/TransactionTests/ttTransactionTest.json and quorum/tests/files/TransactionTests/ttTransactionTest.json differ
+Files go-ethereum/tests/files/VMTests/vmEnvironmentalInfoTest.json and quorum/tests/files/VMTests/vmEnvironmentalInfoTest.json differ
+Files go-ethereum/tests/files/VMTests/vmIOandFlowOperationsTest.json and quorum/tests/files/VMTests/vmIOandFlowOperationsTest.json differ
+Files go-ethereum/tests/files/VMTests/vmPerformanceTest.json and quorum/tests/files/VMTests/vmPerformanceTest.json differ
+Files go-ethereum/tests/files/VMTests/vmPushDupSwapTest.json and quorum/tests/files/VMTests/vmPushDupSwapTest.json differ
+Files go-ethereum/tests/files/VMTests/vmSystemOperationsTest.json and quorum/tests/files/VMTests/vmSystemOperationsTest.json differ
+Only in go-ethereum/tests/files: ansible
+Files go-ethereum/tests/init.go and quorum/tests/init.go differ
+Files go-ethereum/tests/state_test.go and quorum/tests/state_test.go differ
+Files go-ethereum/tests/state_test_util.go and quorum/tests/state_test_util.go differ
+Files go-ethereum/tests/transaction_test.go and quorum/tests/transaction_test.go differ
+Files go-ethereum/tests/transaction_test_util.go and quorum/tests/transaction_test_util.go differ
+Files go-ethereum/tests/util.go and quorum/tests/util.go differ
+Files go-ethereum/tests/vm_test.go and quorum/tests/vm_test.go differ
+Files go-ethereum/tests/vm_test_util.go and quorum/tests/vm_test_util.go differ
+Files go-ethereum/trie/encoding.go and quorum/trie/encoding.go differ
+Files go-ethereum/trie/hasher.go and quorum/trie/hasher.go differ
+Files go-ethereum/trie/iterator_test.go and quorum/trie/iterator_test.go differ
+Files go-ethereum/trie/sync.go and quorum/trie/sync.go differ
+Files go-ethereum/trie/sync_test.go and quorum/trie/sync_test.go differ
+Files go-ethereum/trie/trie.go and quorum/trie/trie.go differ
+Files go-ethereum/trie/trie_test.go and quorum/trie/trie_test.go differ
+Only in go-ethereum/vendor/github.com: Azure
+Only in quorum/vendor/github.com: BurntSushi
+Only in go-ethereum/vendor/github.com: aristanetworks
+Only in quorum/vendor/github.com: beorn7
+Only in quorum/vendor/github.com: coreos
+Files go-ethereum/vendor/github.com/davecgh/go-spew/LICENSE and quorum/vendor/github.com/davecgh/go-spew/LICENSE differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/README.md and quorum/vendor/github.com/davecgh/go-spew/README.md differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/bypass.go and quorum/vendor/github.com/davecgh/go-spew/spew/bypass.go differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/bypasssafe.go and quorum/vendor/github.com/davecgh/go-spew/spew/bypasssafe.go differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/common.go and quorum/vendor/github.com/davecgh/go-spew/spew/common.go differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/config.go and quorum/vendor/github.com/davecgh/go-spew/spew/config.go differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/doc.go and quorum/vendor/github.com/davecgh/go-spew/spew/doc.go differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/dump.go and quorum/vendor/github.com/davecgh/go-spew/spew/dump.go differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/format.go and quorum/vendor/github.com/davecgh/go-spew/spew/format.go differ
+Files go-ethereum/vendor/github.com/davecgh/go-spew/spew/spew.go and quorum/vendor/github.com/davecgh/go-spew/spew/spew.go differ
+Only in quorum/vendor/github.com: eapache
+Files go-ethereum/vendor/github.com/fatih/color/README.md and quorum/vendor/github.com/fatih/color/README.md differ
+Files go-ethereum/vendor/github.com/fatih/color/color.go and quorum/vendor/github.com/fatih/color/color.go differ
+Files go-ethereum/vendor/github.com/fatih/color/doc.go and quorum/vendor/github.com/fatih/color/doc.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/barchart.go and quorum/vendor/github.com/gizak/termui/barchart.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/block.go and quorum/vendor/github.com/gizak/termui/block.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/block_common.go and quorum/vendor/github.com/gizak/termui/block_common.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/block_windows.go and quorum/vendor/github.com/gizak/termui/block_windows.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/buffer.go and quorum/vendor/github.com/gizak/termui/buffer.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/canvas.go and quorum/vendor/github.com/gizak/termui/canvas.go differ
+Only in quorum/vendor/github.com/gizak/termui: config
+Only in go-ethereum/vendor/github.com/gizak/termui: config.py
+Files go-ethereum/vendor/github.com/gizak/termui/doc.go and quorum/vendor/github.com/gizak/termui/doc.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/events.go and quorum/vendor/github.com/gizak/termui/events.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/gauge.go and quorum/vendor/github.com/gizak/termui/gauge.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/glide.lock and quorum/vendor/github.com/gizak/termui/glide.lock differ
+Files go-ethereum/vendor/github.com/gizak/termui/glide.yaml and quorum/vendor/github.com/gizak/termui/glide.yaml differ
+Files go-ethereum/vendor/github.com/gizak/termui/grid.go and quorum/vendor/github.com/gizak/termui/grid.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/helper.go and quorum/vendor/github.com/gizak/termui/helper.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/linechart.go and quorum/vendor/github.com/gizak/termui/linechart.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/linechart_others.go and quorum/vendor/github.com/gizak/termui/linechart_others.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/linechart_windows.go and quorum/vendor/github.com/gizak/termui/linechart_windows.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/list.go and quorum/vendor/github.com/gizak/termui/list.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/mbarchart.go and quorum/vendor/github.com/gizak/termui/mbarchart.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/par.go and quorum/vendor/github.com/gizak/termui/par.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/pos.go and quorum/vendor/github.com/gizak/termui/pos.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/render.go and quorum/vendor/github.com/gizak/termui/render.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/sparkline.go and quorum/vendor/github.com/gizak/termui/sparkline.go differ
+Only in go-ethereum/vendor/github.com/gizak/termui: table.go
+Files go-ethereum/vendor/github.com/gizak/termui/textbuilder.go and quorum/vendor/github.com/gizak/termui/textbuilder.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/theme.go and quorum/vendor/github.com/gizak/termui/theme.go differ
+Files go-ethereum/vendor/github.com/gizak/termui/widget.go and quorum/vendor/github.com/gizak/termui/widget.go differ
+Only in quorum/vendor/github.com/golang: protobuf
+Files go-ethereum/vendor/github.com/huin/goupnp/README.md and quorum/vendor/github.com/huin/goupnp/README.md differ
+Files go-ethereum/vendor/github.com/huin/goupnp/ssdp/registry.go and quorum/vendor/github.com/huin/goupnp/ssdp/registry.go differ
+Only in go-ethereum/vendor/github.com: karalabe
+Only in go-ethereum/vendor/github.com: maruel
+Files go-ethereum/vendor/github.com/mattn/go-colorable/colorable_others.go and quorum/vendor/github.com/mattn/go-colorable/colorable_others.go differ
+Files go-ethereum/vendor/github.com/mattn/go-colorable/colorable_windows.go and quorum/vendor/github.com/mattn/go-colorable/colorable_windows.go differ
+Files go-ethereum/vendor/github.com/mattn/go-colorable/noncolorable.go and quorum/vendor/github.com/mattn/go-colorable/noncolorable.go differ
+Only in quorum/vendor/github.com: matttproud
+Files go-ethereum/vendor/github.com/nsf/termbox-go/README.md and quorum/vendor/github.com/nsf/termbox-go/README.md differ
+Files go-ethereum/vendor/github.com/nsf/termbox-go/api.go and quorum/vendor/github.com/nsf/termbox-go/api.go differ
+Files go-ethereum/vendor/github.com/nsf/termbox-go/termbox.go and quorum/vendor/github.com/nsf/termbox-go/termbox.go differ
+Only in quorum/vendor/github.com: patrickmn
+Files go-ethereum/vendor/github.com/pborman/uuid/README.md and quorum/vendor/github.com/pborman/uuid/README.md differ
+Files go-ethereum/vendor/github.com/peterh/liner/common.go and quorum/vendor/github.com/peterh/liner/common.go differ
+Files go-ethereum/vendor/github.com/peterh/liner/input.go and quorum/vendor/github.com/peterh/liner/input.go differ
+Files go-ethereum/vendor/github.com/peterh/liner/input_windows.go and quorum/vendor/github.com/peterh/liner/input_windows.go differ
+Files go-ethereum/vendor/github.com/peterh/liner/line.go and quorum/vendor/github.com/peterh/liner/line.go differ
+Only in quorum/vendor/github.com/peterh/liner: signal.go
+Only in quorum/vendor/github.com/peterh/liner: signal_legacy.go
+Files go-ethereum/vendor/github.com/peterh/liner/width.go and quorum/vendor/github.com/peterh/liner/width.go differ
+Only in quorum/vendor/github.com: prometheus
+Files go-ethereum/vendor/github.com/rcrowley/go-metrics/gauge.go and quorum/vendor/github.com/rcrowley/go-metrics/gauge.go differ
+Files go-ethereum/vendor/github.com/rcrowley/go-metrics/registry.go and quorum/vendor/github.com/rcrowley/go-metrics/registry.go differ
+Files go-ethereum/vendor/github.com/rcrowley/go-metrics/sample.go and quorum/vendor/github.com/rcrowley/go-metrics/sample.go differ
+Files go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/session.go and quorum/vendor/github.com/syndtr/goleveldb/leveldb/session.go differ
+Files go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/session_util.go and quorum/vendor/github.com/syndtr/goleveldb/leveldb/session_util.go differ
+Files go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/version.go and quorum/vendor/github.com/syndtr/goleveldb/leveldb/version.go differ
+Only in quorum/vendor/github.com: tv42
+Only in quorum/vendor/github.com: xiang90
+Only in go-ethereum/vendor/golang.org/x/crypto: cast5
+Only in go-ethereum/vendor/golang.org/x/crypto: openpgp
+Files go-ethereum/vendor/golang.org/x/net/websocket/websocket.go and quorum/vendor/golang.org/x/net/websocket/websocket.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: asm_linux_mipsx.s
+Files go-ethereum/vendor/golang.org/x/sys/unix/flock_linux_32bit.go and quorum/vendor/golang.org/x/sys/unix/flock_linux_32bit.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/mkerrors.sh and quorum/vendor/golang.org/x/sys/unix/mkerrors.sh differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/mksysnum_linux.pl and quorum/vendor/golang.org/x/sys/unix/mksysnum_linux.pl differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/syscall_bsd.go and quorum/vendor/golang.org/x/sys/unix/syscall_bsd.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/syscall_linux.go and quorum/vendor/golang.org/x/sys/unix/syscall_linux.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/syscall_linux_amd64.go and quorum/vendor/golang.org/x/sys/unix/syscall_linux_amd64.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: syscall_linux_amd64_gc.go
+Only in go-ethereum/vendor/golang.org/x/sys/unix: syscall_linux_mipsx.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/syscall_unix.go and quorum/vendor/golang.org/x/sys/unix/syscall_unix.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: syscall_unix_gc.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/types_linux.go and quorum/vendor/golang.org/x/sys/unix/types_linux.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_386.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_386.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_arm.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_arm.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: zerrors_linux_mips.go
+Only in go-ethereum/vendor/golang.org/x/sys/unix: zerrors_linux_mipsle.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go and quorum/vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_386.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_386.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: zsyscall_linux_mips.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: zsyscall_linux_mipsle.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go and quorum/vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: zsysnum_linux_mips.go
+Only in go-ethereum/vendor/golang.org/x/sys/unix: zsysnum_linux_mipsle.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_386.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_386.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_arm.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_arm.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: ztypes_linux_mips.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go differ
+Only in go-ethereum/vendor/golang.org/x/sys/unix: ztypes_linux_mipsle.go
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go differ
+Files go-ethereum/vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go and quorum/vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go differ
+Files go-ethereum/vendor/golang.org/x/text/internal/gen/code.go and quorum/vendor/golang.org/x/text/internal/gen/code.go differ
+Files go-ethereum/vendor/golang.org/x/text/language/tables.go and quorum/vendor/golang.org/x/text/language/tables.go differ
+Files go-ethereum/vendor/golang.org/x/tools/imports/fix.go and quorum/vendor/golang.org/x/tools/imports/fix.go differ
+Only in go-ethereum/vendor/gopkg.in/check.v1: .travis.yml
+Files go-ethereum/vendor/gopkg.in/check.v1/check.go and quorum/vendor/gopkg.in/check.v1/check.go differ
+Files go-ethereum/vendor/gopkg.in/check.v1/checkers.go and quorum/vendor/gopkg.in/check.v1/checkers.go differ
+Only in quorum/vendor/gopkg.in: oleiade
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/.travis.yml and quorum/vendor/gopkg.in/urfave/cli.v1/.travis.yml differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/CHANGELOG.md and quorum/vendor/gopkg.in/urfave/cli.v1/CHANGELOG.md differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/README.md and quorum/vendor/gopkg.in/urfave/cli.v1/README.md differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/app.go and quorum/vendor/gopkg.in/urfave/cli.v1/app.go differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/appveyor.yml and quorum/vendor/gopkg.in/urfave/cli.v1/appveyor.yml differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/cli.go and quorum/vendor/gopkg.in/urfave/cli.v1/cli.go differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/command.go and quorum/vendor/gopkg.in/urfave/cli.v1/command.go differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/context.go and quorum/vendor/gopkg.in/urfave/cli.v1/context.go differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/errors.go and quorum/vendor/gopkg.in/urfave/cli.v1/errors.go differ
+Only in go-ethereum/vendor/gopkg.in/urfave/cli.v1: flag-types.json
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/flag.go and quorum/vendor/gopkg.in/urfave/cli.v1/flag.go differ
+Only in go-ethereum/vendor/gopkg.in/urfave/cli.v1: flag_generated.go
+Only in go-ethereum/vendor/gopkg.in/urfave/cli.v1: generate-flag-types
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/help.go and quorum/vendor/gopkg.in/urfave/cli.v1/help.go differ
+Files go-ethereum/vendor/gopkg.in/urfave/cli.v1/runtests and quorum/vendor/gopkg.in/urfave/cli.v1/runtests differ
+Files go-ethereum/vendor.conf and quorum/vendor.conf differ
+Only in go-ethereum/whisper: mailserver
+Files go-ethereum/whisper/shhapi/api.go and quorum/whisper/shhapi/api.go differ
+Files go-ethereum/whisper/shhapi/api_test.go and quorum/whisper/shhapi/api_test.go differ
+Files go-ethereum/whisper/whisperv2/api.go and quorum/whisper/whisperv2/api.go differ
+Files go-ethereum/whisper/whisperv2/envelope_test.go and quorum/whisper/whisperv2/envelope_test.go differ
+Files go-ethereum/whisper/whisperv2/filter.go and quorum/whisper/whisperv2/filter.go differ
+Files go-ethereum/whisper/whisperv2/filter_test.go and quorum/whisper/whisperv2/filter_test.go differ
+Files go-ethereum/whisper/whisperv2/message_test.go and quorum/whisper/whisperv2/message_test.go differ
+Files go-ethereum/whisper/whisperv2/peer.go and quorum/whisper/whisperv2/peer.go differ
+Files go-ethereum/whisper/whisperv2/peer_test.go and quorum/whisper/whisperv2/peer_test.go differ
+Files go-ethereum/whisper/whisperv2/topic_test.go and quorum/whisper/whisperv2/topic_test.go differ
+Files go-ethereum/whisper/whisperv5/benchmarks_test.go and quorum/whisper/whisperv5/benchmarks_test.go differ
+Files go-ethereum/whisper/whisperv5/doc.go and quorum/whisper/whisperv5/doc.go differ
+Files go-ethereum/whisper/whisperv5/envelope.go and quorum/whisper/whisperv5/envelope.go differ
+Files go-ethereum/whisper/whisperv5/filter.go and quorum/whisper/whisperv5/filter.go differ
+Files go-ethereum/whisper/whisperv5/filter_test.go and quorum/whisper/whisperv5/filter_test.go differ
+Files go-ethereum/whisper/whisperv5/message.go and quorum/whisper/whisperv5/message.go differ
+Files go-ethereum/whisper/whisperv5/message_test.go and quorum/whisper/whisperv5/message_test.go differ
+Files go-ethereum/whisper/whisperv5/peer.go and quorum/whisper/whisperv5/peer.go differ
+Files go-ethereum/whisper/whisperv5/peer_test.go and quorum/whisper/whisperv5/peer_test.go differ
+Files go-ethereum/whisper/whisperv5/topic.go and quorum/whisper/whisperv5/topic.go differ
+Files go-ethereum/whisper/whisperv5/topic_test.go and quorum/whisper/whisperv5/topic_test.go differ
+Files go-ethereum/whisper/whisperv5/whisper.go and quorum/whisper/whisperv5/whisper.go differ
+Files go-ethereum/whisper/whisperv5/whisper_test.go and quorum/whisper/whisperv5/whisper_test.go differ

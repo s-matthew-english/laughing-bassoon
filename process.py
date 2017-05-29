@@ -30,18 +30,23 @@ with open("diff_id_result.txt", "r") as input_file:
             string_output = regex.findall(line)
             files_identical.append( string_output[0] )
 
-print('\n\nONLY IN QUORUM:\n')
+print('\n\nONLY IN QUORUM: ' + str( len(quorum_files) ) + '\n') 
 for quo_element in quorum_files: 
     print( quo_element )
-print('\n\nONLY IN GO-ETHEREUM:\n')
+print('\n\nONLY IN GO-ETHEREUM: ' + str( len(geth_files) ) + '\n')
 for geth_element in geth_files: 
     print( geth_element )
-print('\n\nFILES IN BOTH, BUT DIFFERENT:\n')
+print('\n\nFILES IN BOTH, BUT DIFFERENT: ' + str( len(files_differ) ) + '\n')
 for diff_element in files_differ: 
     print( diff_element )
-print('\n\nFILES ARE IDENTICAL:\n')
+print('\n\nFILES ARE IDENTICAL: ' + str( len(files_identical) ) + '\n')
 for id_element in files_identical: 
     print( id_element )
+
+print('\nONLY IN QUORUM: ' + str( len(quorum_files) ) ) 
+print('\nONLY IN GO-ETHEREUM: ' + str( len(geth_files) ) )
+print('\nFILES IN BOTH, BUT DIFFERENT: ' + str( len(files_differ) ) )
+print('\nFILES ARE IDENTICAL: ' + str( len(files_identical) ) + '\n')
 
 
 

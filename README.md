@@ -2,6 +2,27 @@
 
 An analysis of the differences between the project directories for go-ethereum and quorum. 
 
+## Jaccard Similarity
+
+To get a rough sense of the similarity between these two projects we use the Jaccard Similarity. 
+It varies between 0 (when sets are completely different) and 1 (when sets are identical). 
+
+In order to effectively employ this metric we had to determine how to deal with "IN BOTH, BUT DIFFERENT", described in detail below. For simplicity we consider records in this class as being only in the intersection or only in the difference of the Quorum and Go-Ethereum sets.
+
+Based on percentage of lines that differ, we divide this group between the intersection and the difference. In "IN BOTH, BUT DIFFERENT" we have initially 490 files. Our difference ratio gives us a number between 0 and 1, files with a similarity score of greater than 90% are treated as part of the "IDENTICAL FILES" set, there are 418 of such files, and we give them a weight of 0.9, i.e. (418 * 0.9), and add the result to our "IDENTICAL FILES" set, therefore "IDENTICAL FILES" is recalculated as 1710 + (418 * 0.9) = 2086.2
+
+We're left with 72 files with a difference of greater than 0.10%. These are split evenly and partitioned between the "GO-ETHEREUM ONLY", and "QUORUM ONLY", with a weight of 0.10
+
+So we have:
+
+QUORUM ONLY: 95 + (36 * 0.1) = 98.6
+GO-ETHEREUM ONLY: 124 + (36 * 0.1) = 127.6
+INTERSECTION: 1710 + (418 * 0.9) = 2086.2
+
+And therefore Jaccard similarity will be:
+
+J = 2086.2 / (2086.2 + 98.6 + 127.6) = 0.90217
+
 ## How to interpret this document: 
 
 ### Files fall into one of four categories: 

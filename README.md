@@ -13,9 +13,15 @@ We're left with 72 files with a difference of greater than 0.10%. These are spli
 
 So we have:
 
+
 QUORUM ONLY: 95 + (36 * 0.1) = 98.6
+
+
 GO-ETHEREUM ONLY: 124 + (36 * 0.1) = 127.6
+
+
 INTERSECTION: 1710 + (418 * 0.9) = 2086.2
+
 
 And therefore Jaccard similarity will be:
 

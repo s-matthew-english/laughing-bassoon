@@ -3353,493 +3353,982 @@ IN BOTH, BUT DIFFERENT: 490
 
 RELATIVE DIFFERENCE FOR <<IN BOTH, BUT DIFFERENT>>:
 
-Makefile => 0.977112485085
-vendor.conf => 0.728567794454
-.gitignore => 0.994464944649
-appveyor.yml => 0.720138488171
-VERSION => 0.833333333333
-README.md => 0.555308028447
-interfaces.go => 0.933380402441
-.mailmap => 0.844064386318
-AUTHORS => 0.719160104987
-.travis.yml => 0.336860068259
-trie/sync.go => 0.992237196765
-trie/hasher.go => 1.0
-trie/trie.go => 0.997552557264
-trie/sync_test.go => 0.99719814377
-trie/encoding.go => 0.999463615233
-trie/iterator_test.go => 0.999525391552
-trie/trie_test.go => 0.996974174935
-whisper/whisperv5/message.go => 0.99335780458
-whisper/whisperv5/message_test.go => 0.908453303802
-whisper/whisperv5/whisper.go => 0.959877435393
-whisper/whisperv5/envelope.go => 0.989672599429
-whisper/whisperv5/whisper_test.go => 0.877927017711
-whisper/whisperv5/benchmarks_test.go => 0.965661641541
-whisper/whisperv5/doc.go => 0.965740142211
-whisper/whisperv5/filter.go => 0.959339894622
-whisper/whisperv5/filter_test.go => 0.938699690402
-whisper/whisperv5/peer.go => 0.98972043424
-whisper/whisperv5/peer_test.go => 0.984287520318
-whisper/whisperv5/topic_test.go => 0.989748743719
-whisper/whisperv5/topic.go => 0.973273942094
-whisper/shhapi/api_test.go => 0.42419250456
-whisper/shhapi/api.go => 0.970473575375
-whisper/whisperv2/envelope_test.go => 0.990726268626
-whisper/whisperv2/message_test.go => 0.997246262785
-whisper/whisperv2/filter.go => 0.996067214873
-whisper/whisperv2/filter_test.go => 0.99618164462
-whisper/whisperv2/peer.go => 0.999714421704
-whisper/whisperv2/peer_test.go => 0.999803729146
-whisper/whisperv2/topic_test.go => 0.968546637744
-whisper/whisperv2/api.go => 0.987799011676
-rpc/subscription.go => 1.0
-rpc/json.go => 0.985508416421
-rpc/types.go => 0.82583512931
-rpc/server.go => 0.999597072057
-rpc/subscription_test.go => 0.999204093235
-rpc/client.go => 0.998360046356
-accounts/abi/argument.go => 0.982703847511
-accounts/abi/abi.go => 0.925532348031
-accounts/abi/reflect.go => 0.973799894496
-accounts/abi/type.go => 0.935528664947
-accounts/abi/abi_test.go => 0.959917751113
-accounts/abi/event.go => 0.963291139241
-accounts/abi/packing.go => 0.997235023041
-accounts/abi/bind/auth.go => 0.986823529412
-accounts/abi/bind/util_test.go => 0.993390950686
-accounts/abi/bind/bind_test.go => 0.972432864519
-accounts/abi/bind/template.go => 0.851066404477
-accounts/abi/bind/base.go => 0.996311259441
-accounts/abi/bind/bind.go => 0.745989470424
-accounts/abi/bind/backend.go => 0.999787640688
-accounts/abi/bind/backends/simulated.go => 0.964371202357
-errs/errors.go => 0.885793871866
-errs/errors_test.go => 0.851877133106
-event/event_test.go => 0.967829326109
-event/event.go => 0.963283352557
-event/filter/generic_filter.go => 0.998958694898
-console/console_test.go => 0.998245697217
-console/prompter.go => 0.997817476356
-console/console.go => 0.993385121612
-console/bridge.go => 0.982407037185
-compression/rle/read_write.go => 0.994087504927
-.git/index => 0.934161191795
-.git/HEAD => 0.823529411765
-.git/packed-refs => 0.111462951235
-.git/config => 0.872675250358
-.git/refs/heads/master => 0.658536585366
-.git/logs/HEAD => 0.4
-.git/logs/refs/remotes/origin/HEAD => 0.869778869779
-.git/logs/refs/heads/master => 0.869778869779
-.github/CONTRIBUTING.md => 0.711349419124
-.github/ISSUE_TEMPLATE.md => 0.940711462451
-swarm/swarm.go => 0.975473801561
-swarm/api/api.go => 0.975075663165
-swarm/api/config_test.go => 0.962147780868
-swarm/api/filesystem.go => 0.983314285714
-swarm/api/manifest.go => 0.992228854601
-swarm/api/config.go => 0.953900263786
-swarm/api/filesystem_test.go => 0.997287032013
-swarm/api/http/roundtripper.go => 0.988316745997
-swarm/api/http/roundtripper_test.go => 0.977249747219
-swarm/api/http/server.go => 0.909716342083
-swarm/storage/chunker.go => 0.997338935574
-swarm/storage/memstore.go => 0.965125254368
-swarm/storage/common_test.go => 0.999316239316
-swarm/storage/localstore.go => 0.985769728331
-swarm/storage/dbstore.go => 0.939481268012
-swarm/storage/dbstore_test.go => 0.998657460683
-swarm/storage/dpa.go => 0.995263266287
-swarm/storage/types.go => 0.998902730265
-swarm/storage/netstore.go => 0.993172915501
-swarm/storage/dpa_test.go => 0.999037304452
-swarm/network/syncdb_test.go => 0.99138313938
-swarm/network/depo.go => 0.996285336523
-swarm/network/hive.go => 0.989806678383
-swarm/network/protocol.go => 0.995624111148
-swarm/network/syncer.go => 0.999784613577
-swarm/network/protocol_test.go => 0.998763906057
-swarm/network/kademlia/kademlia_test.go => 0.999416538482
-internal/web3ext/web3ext.go => 0.796662211466
-internal/ethapi/tracer.go => 0.99830517741
-internal/ethapi/backend.go => 0.980517937752
-internal/ethapi/tracer_test.go => 0.807933718303
-internal/ethapi/api.go => 0.955788600098
-internal/jsre/pretty.go => 0.997905612957
-internal/jsre/jsre.go => 0.991482112436
-internal/build/archive.go => 0.974000687207
-internal/build/util.go => 0.92661611618
-internal/build/env.go => 0.982429139413
-params/gas_table.go => 0.903944315545
-params/protocol_params.go => 0.991922755547
-params/util.go => 0.935965578335
-build/env.sh => 0.925160370634
-build/ci.go => 0.643906850554
-build/ci-notes.md => 0.995230524642
-build/update-license.go => 0.997753818509
-logger/glog/glog.go => 0.99994622644
-containers/docker/master-alpine/Dockerfile => 0.913770913771
-containers/docker/develop-alpine/Dockerfile => 0.95213454075
-containers/docker/develop-ubuntu/Dockerfile => 0.833855799373
-containers/docker/master-ubuntu/Dockerfile => 0.82340862423
-node/config_test.go => 0.998086490624
-node/node.go => 0.994838806193
-node/node_example_test.go => 0.998566993074
-node/config.go => 0.962914455091
-node/node_test.go => 0.999133871055
-node/api.go => 0.99332391209
-core/chain_pow_test.go => 0.993904916701
-core/genesis.go => 0.871891301711
-core/block_validator_test.go => 0.979231758868
-core/bench_test.go => 0.991086129563
-core/tx_pool.go => 0.976351207914
-core/block_validator.go => 0.837512327785
-core/dao.go => 0.994923857868
-core/tx_list.go => 0.999871536848
-core/chain_makers.go => 0.991525838844
-core/blocks.go => 0.957514846962
-core/headerchain.go => 0.932430044183
-core/blockchain_test.go => 0.90503844074
-core/events.go => 0.962650348175
-core/default_genesis.go => 0.997140993839
-core/tx_pool_test.go => 0.811272898074
-core/state_processor.go => 0.935503525111
-core/chain_makers_test.go => 0.971787637856
-core/types.go => 0.873303167421
-core/database_util_test.go => 0.994140320389
-core/tx_list_test.go => 0.996082820369
-core/database_util.go => 0.967773901195
-core/blockchain.go => 0.987382601271
-core/state_transition.go => 0.925334125334
-core/state/sync.go => 0.972719869707
-core/state/iterator.go => 0.998619873817
-core/state/statedb.go => 0.966092531088
-core/state/statedb_test.go => 0.984489318115
-core/state/sync_test.go => 0.996500358938
-core/state/journal.go => 0.933644548183
-core/state/iterator_test.go => 0.999207816213
-core/state/managed_state_test.go => 0.996569188041
-core/state/state_object.go => 0.96620296891
-core/state/state_test.go => 0.999026542929
-core/vm/contracts.go => 0.917533620908
-core/vm/opcodes.go => 0.990428319341
-core/vm/errors.go => 0.93900833699
-core/vm/stack.go => 0.975641583297
-core/vm/vm.go => 0.653246540124
-core/vm/vm_jit_fake.go => 0.922128851541
-core/vm/vm_jit.go => 0.998328845975
-core/vm/logger_test.go => 0.976397515528
-core/vm/instructions.go => 0.926602814699
-core/vm/environment.go => 0.571645089991
-core/vm/logger.go => 0.981887078439
-core/vm/jump_table.go => 0.438189658099
-core/vm/gas.go => 0.998646296654
-core/vm/contract.go => 0.979342627455
-core/vm/runtime/runtime_test.go => 0.999044281618
-core/vm/runtime/env.go => 0.54930875576
-core/vm/runtime/runtime.go => 0.935692412385
-core/types/transaction_test.go => 0.918760315423
-core/types/block.go => 0.980282938254
-core/types/bloom9.go => 0.957216028924
-core/types/receipt.go => 0.994771643857
-core/types/block_test.go => 0.975
-core/types/transaction.go => 0.92433354277
-tests/init.go => 0.942865345966
-tests/vm_test_util.go => 0.986799501868
-tests/block_test_util.go => 0.997054120024
-tests/transaction_test_util.go => 0.983890038427
-tests/transaction_test.go => 0.701766420854
-tests/vm_test.go => 0.996900025833
-tests/state_test_util.go => 0.948488908739
-tests/block_test.go => 0.585379568885
-tests/util.go => 0.758123640882
-tests/state_test.go => 0.771015929523
-tests/files/VMTests/vmIOandFlowOperationsTest.json => 0.999978688717
-tests/files/VMTests/vmPerformanceTest.json => 0.918431298072
-tests/files/VMTests/vmEnvironmentalInfoTest.json => 0.999896313364
-tests/files/VMTests/vmPushDupSwapTest.json => 0.993959222548
-tests/files/VMTests/vmSystemOperationsTest.json => 0.983965324306
-tests/files/StateTests/stPreCompiledContracts.json => 0.999850490604
-tests/files/StateTests/stSystemOperationsTest.json => 0.999909957798
-tests/files/StateTests/EIP150/stMemExpandingEIPCalls.json => 0.999083718234
-tests/files/StateTests/EIP150/stEIPSpecificTest.json => 0.88140317951
-tests/files/StateTests/EIP150/stEIPSingleCodeGasPrices.json => 0.998910763524
-tests/files/StateTests/EIP150/Homestead/stPreCompiledContracts.json => 0.998792945341
-tests/files/StateTests/EIP150/Homestead/stBoundsTest.json => 0.999155228416
-tests/files/StateTests/EIP150/Homestead/stQuadraticComplexityTest.json => 0.999954299224
-tests/files/StateTests/EIP150/Homestead/stTransactionTest.json => 0.998491086633
-tests/files/StateTests/EIP150/Homestead/stLogTests.json => 0.999190606341
-tests/files/StateTests/EIP150/Homestead/stCallCodes.json => 0.999222260629
-tests/files/StateTests/EIP150/Homestead/stRecursiveCreate.json => 0.999947549697
-tests/files/StateTests/EIP150/Homestead/stDelegatecallTest.json => 0.998866855524
-tests/files/StateTests/EIP150/Homestead/stInitCodeTest.json => 0.995596400536
-tests/files/StateTests/EIP150/Homestead/stWalletTest.json => 0.999654420798
-tests/files/StateTests/EIP150/Homestead/stSystemOperationsTest.json => 0.999499319618
-tests/files/StateTests/EIP150/Homestead/stCallCreateCallCodeTest.json => 0.998949221594
-tests/files/StateTests/EIP150/Homestead/stSpecialTest.json => 0.999806772965
-tests/files/StateTests/EIP150/Homestead/stMemoryTest.json => 0.998657487091
-tests/files/StateTests/EIP150/Homestead/stCallDelegateCodes.json => 0.999235621782
-tests/files/StateTests/EIP150/Homestead/stHomeSteadSpecific.json => 0.998669505056
-tests/files/StateTests/EIP150/Homestead/stRefundTest.json => 0.987661394283
-tests/files/StateTests/EIP150/Homestead/stCallDelegateCodesCallCode.json => 0.999233756969
-tests/files/StateTests/Homestead/stPreCompiledContracts.json => 0.999850717622
-tests/files/StateTests/Homestead/stTransactionTest.json => 0.986811625874
-tests/files/StateTests/Homestead/stDelegatecallTest.json => 0.999765691059
-tests/files/StateTests/Homestead/stSystemOperationsTest.json => 0.999274301835
-tests/files/TransactionTests/ttTransactionTest.json => 0.966114150404
-tests/files/TransactionTests/Homestead/ttTransactionTest.json => 0.966980215877
-tests/files/BlockchainTests/bcInvalidHeaderTest.json => 0.929272126172
-tests/files/BlockchainTests/TestNetwork/bcTheDaoTest.json => 0.999997125388
-tests/files/BlockchainTests/TestNetwork/bcEIP150Test.json => 0.999995756508
-tests/files/BlockchainTests/Homestead/bcShanghaiLove.json => 0.999999641505
-tests/files/BlockchainTests/Homestead/bcSuicideIssue.json => 0.767977879444
-tests/files/BlockchainTests/Homestead/bcInvalidHeaderTest.json => 0.925803792251
-vendor/github.com/huin/goupnp/README.md => 0.925287356322
-vendor/github.com/huin/goupnp/ssdp/registry.go => 0.999865356133
-vendor/github.com/rcrowley/go-metrics/registry.go => 0.999865501009
-vendor/github.com/rcrowley/go-metrics/sample.go => 0.995872720011
-vendor/github.com/rcrowley/go-metrics/gauge.go => 0.999823788546
-vendor/github.com/fatih/color/color.go => 0.908426036414
-vendor/github.com/fatih/color/doc.go => 0.936842105263
-vendor/github.com/fatih/color/README.md => 0.941585535466
-vendor/github.com/nsf/termbox-go/termbox.go => 0.998508069985
-vendor/github.com/nsf/termbox-go/README.md => 0.986472844741
-vendor/github.com/nsf/termbox-go/api.go => 0.999082874771
-vendor/github.com/gizak/termui/block_windows.go => 0.988571428571
-vendor/github.com/gizak/termui/block.go => 0.999250796029
-vendor/github.com/gizak/termui/sparkline.go => 0.998934185985
-vendor/github.com/gizak/termui/block_common.go => 0.992409867173
-vendor/github.com/gizak/termui/barchart.go => 0.998861696073
-vendor/github.com/gizak/termui/mbarchart.go => 0.999358974359
-vendor/github.com/gizak/termui/buffer.go => 0.99721448468
-vendor/github.com/gizak/termui/doc.go => 0.993893129771
-vendor/github.com/gizak/termui/theme.go => 0.998742533794
-vendor/github.com/gizak/termui/linechart_others.go => 0.984962406015
-vendor/github.com/gizak/termui/canvas.go => 0.997041420118
-vendor/github.com/gizak/termui/list.go => 0.998064828254
-vendor/github.com/gizak/termui/events.go => 0.999313304721
-vendor/github.com/gizak/termui/linechart_windows.go => 0.984555984556
-vendor/github.com/gizak/termui/grid.go => 0.99926335175
-vendor/github.com/gizak/termui/glide.yaml => 0.916666666667
-vendor/github.com/gizak/termui/helper.go => 0.999048525214
-vendor/github.com/gizak/termui/render.go => 0.868014647349
-vendor/github.com/gizak/termui/textbuilder.go => 0.999365079365
-vendor/github.com/gizak/termui/widget.go => 0.997518610422
-vendor/github.com/gizak/termui/linechart.go => 0.999466025898
-vendor/github.com/gizak/termui/pos.go => 0.997594708358
-vendor/github.com/gizak/termui/par.go => 0.997501561524
-vendor/github.com/gizak/termui/glide.lock => 0.691374663073
-vendor/github.com/gizak/termui/gauge.go => 0.998247919404
-vendor/github.com/pborman/uuid/README.md => 0.999239543726
-vendor/github.com/peterh/liner/common.go => 0.970376301041
-vendor/github.com/peterh/liner/input_windows.go => 0.961911401229
-vendor/github.com/peterh/liner/width.go => 0.926543751829
-vendor/github.com/peterh/liner/line.go => 0.981271723574
-vendor/github.com/peterh/liner/input.go => 0.985487301389
-vendor/github.com/syndtr/goleveldb/leveldb/session_util.go => 0.965839626034
-vendor/github.com/syndtr/goleveldb/leveldb/session.go => 0.994663421028
-vendor/github.com/syndtr/goleveldb/leveldb/version.go => 0.992370499264
-vendor/github.com/mattn/go-colorable/colorable_windows.go => 0.984725824622
-vendor/github.com/mattn/go-colorable/colorable_others.go => 0.711453744493
-vendor/github.com/mattn/go-colorable/noncolorable.go => 0.916822429907
-vendor/github.com/davecgh/go-spew/LICENSE => 0.99868938401
-vendor/github.com/davecgh/go-spew/README.md => 0.966741540468
-vendor/github.com/davecgh/go-spew/spew/common.go => 0.999758722193
-vendor/github.com/davecgh/go-spew/spew/format.go => 0.999779298168
-vendor/github.com/davecgh/go-spew/spew/doc.go => 0.97757793765
-vendor/github.com/davecgh/go-spew/spew/bypass.go => 0.999567959907
-vendor/github.com/davecgh/go-spew/spew/config.go => 0.984581323634
-vendor/github.com/davecgh/go-spew/spew/dump.go => 0.996658676545
-vendor/github.com/davecgh/go-spew/spew/bypasssafe.go => 0.998556165175
-vendor/github.com/davecgh/go-spew/spew/spew.go => 0.999580993883
-vendor/gopkg.in/urfave/cli.v1/app.go => 0.982836125868
-vendor/gopkg.in/urfave/cli.v1/cli.go => 0.93302891933
-vendor/gopkg.in/urfave/cli.v1/flag.go => 0.943710084658
-vendor/gopkg.in/urfave/cli.v1/help.go => 0.958082133485
-vendor/gopkg.in/urfave/cli.v1/runtests => 0.905019593208
-vendor/gopkg.in/urfave/cli.v1/errors.go => 0.917541229385
-vendor/gopkg.in/urfave/cli.v1/CHANGELOG.md => 0.894710444076
-vendor/gopkg.in/urfave/cli.v1/appveyor.yml => 0.973952434881
-vendor/gopkg.in/urfave/cli.v1/command.go => 0.971386967601
-vendor/gopkg.in/urfave/cli.v1/context.go => 0.651062740077
-vendor/gopkg.in/urfave/cli.v1/.travis.yml => 0.90310786106
-vendor/gopkg.in/urfave/cli.v1/README.md => 0.983325531468
-vendor/gopkg.in/check.v1/check.go => 0.998767928958
-vendor/gopkg.in/check.v1/checkers.go => 0.999960036766
-vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go => 0.997462848858
-vendor/golang.org/x/sys/unix/types_linux.go => 0.992613313519
-vendor/golang.org/x/sys/unix/mksysnum_linux.pl => 0.922048997773
-vendor/golang.org/x/sys/unix/syscall_linux.go => 0.976340477984
-vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go => 0.997383948087
-vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go => 0.994897765398
-vendor/golang.org/x/sys/unix/mkerrors.sh => 0.998227793387
-vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go => 0.994694017274
-vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go => 0.993770178709
-vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go => 0.993600224226
-vendor/golang.org/x/sys/unix/syscall_unix.go => 0.975670344122
-vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go => 0.997462960319
-vendor/golang.org/x/sys/unix/zsyscall_linux_386.go => 0.997120311156
-vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go => 0.995180578809
-vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go => 0.993769612079
-vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go => 0.997452215249
-vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go => 0.994460404954
-vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go => 0.995045488075
-vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go => 0.993644166087
-vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go => 0.993794446709
-vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go => 0.997384066587
-vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go => 0.993599028174
-vendor/golang.org/x/sys/unix/syscall_linux_amd64.go => 0.992105263158
-vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go => 0.99489834671
-vendor/golang.org/x/sys/unix/ztypes_linux_386.go => 0.99355081674
-vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go => 0.997330066228
-vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go => 0.993768478508
-vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go => 0.997073541522
-vendor/golang.org/x/sys/unix/zerrors_linux_386.go => 0.994457814756
-vendor/golang.org/x/sys/unix/zerrors_linux_arm.go => 0.994205857404
-vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go => 0.99742368647
-vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go => 0.997291244034
-vendor/golang.org/x/sys/unix/flock_linux_32bit.go => 0.968085106383
-vendor/golang.org/x/sys/unix/ztypes_linux_arm.go => 0.993493850026
-vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go => 0.993814060595
-vendor/golang.org/x/sys/unix/syscall_bsd.go => 0.991705240921
-vendor/golang.org/x/text/language/tables.go => 0.999875560754
-vendor/golang.org/x/text/internal/gen/code.go => 0.970810210877
-vendor/golang.org/x/net/websocket/websocket.go => 0.992367045549
-vendor/golang.org/x/tools/imports/fix.go => 0.999324729892
-contracts/chequebook/cheque_test.go => 0.9978404643
-contracts/chequebook/cheque.go => 0.999953246996
-contracts/release/release.go => 0.973810526316
-contracts/release/contract.sol => 0.999945843488
-contracts/ens/ens_test.go => 0.997462514418
-ethdb/memory_database.go => 0.99944842802
-ethdb/database.go => 0.942737038767
-metrics/disk_linux.go => 0.989050165521
-metrics/metrics.go => 0.970303352847
-p2p/server.go => 0.98622313929
-p2p/dial.go => 0.946199169323
-p2p/dial_test.go => 0.972888425443
-p2p/peer_test.go => 0.999834646971
-p2p/rlpx.go => 0.999630168397
-p2p/discover/udp_test.go => 0.974248206014
-p2p/discover/udp.go => 0.986346438559
-p2p/discover/database_test.go => 0.999740977379
-p2p/discover/node.go => 0.998286245899
-p2p/discover/database.go => 0.999386986601
-p2p/discover/table_test.go => 0.998217271735
-p2p/discover/table.go => 0.999897933146
-p2p/nat/natpmp.go => 0.99943019943
-p2p/nat/nat_test.go => 0.995735607676
-light/odr.go => 0.764843142339
-light/trie.go => 0.975515818432
-light/state.go => 0.955969234199
-light/state_object.go => 0.932062592569
-light/state_test.go => 0.982028506507
-cmd/geth/chaincmd.go => 0.906409903714
-cmd/geth/usage.go => 0.966831460674
-cmd/geth/consolecmd.go => 0.979996720774
-cmd/geth/accountcmd_test.go => 0.988606573906
-cmd/geth/main.go => 0.900245607406
-cmd/geth/accountcmd.go => 0.965662968833
-cmd/geth/consolecmd_test.go => 0.997530022996
-cmd/geth/monitorcmd.go => 0.996765474766
-cmd/abigen/main.go => 0.951740139211
-cmd/bootnode/main.go => 0.898844388159
-cmd/evm/main.go => 0.78559033803
-cmd/utils/cmd.go => 0.962512495835
-cmd/utils/customflags.go => 0.985762711864
-cmd/utils/flags.go => 0.947900071184
-cmd/ethtest/main.go => 0.980158392234
-cmd/disasm/main.go => 0.930129798398
-cmd/gethrpctest/main.go => 0.99201385548
-crypto/crypto_test.go => 0.944951734933
-crypto/crypto.go => 0.949636182052
-crypto/ecies/asn1.go => 0.999375433727
-crypto/ecies/ecies_test.go => 0.999273563775
-crypto/ecies/ecies.go => 0.999185750636
-crypto/sha3/sha3_test.go => 0.999774926851
-crypto/secp256k1/secp256.go => 0.780012771392
-crypto/secp256k1/secp256_test.go => 0.975323323919
-crypto/secp256k1/curve.go => 0.960773166572
-crypto/secp256k1/libsecp256k1/libsecp256k1.pc.in => 0.992295839753
-crypto/secp256k1/libsecp256k1/.gitignore => 0.816568047337
-crypto/secp256k1/libsecp256k1/configure.ac => 0.854964698813
-crypto/secp256k1/libsecp256k1/Makefile.am => 0.759230252853
-crypto/secp256k1/libsecp256k1/.travis.yml => 0.897058823529
-crypto/secp256k1/libsecp256k1/README.md => 0.998382923674
-crypto/secp256k1/libsecp256k1/src/field_5x52_int128_impl.h => 0.999891197911
-crypto/secp256k1/libsecp256k1/src/eckey.h => 0.889871086556
-crypto/secp256k1/libsecp256k1/src/ecmult_const_impl.h => 0.960120229725
-crypto/secp256k1/libsecp256k1/src/tests.c => 0.628760895477
-crypto/secp256k1/libsecp256k1/src/field_impl.h => 0.899956038435
-crypto/secp256k1/libsecp256k1/src/ecdsa_impl.h => 0.906726085605
-crypto/secp256k1/libsecp256k1/src/hash.h => 0.999124087591
-crypto/secp256k1/libsecp256k1/src/num_gmp_impl.h => 0.95840328297
-crypto/secp256k1/libsecp256k1/src/group.h => 0.989475035297
-crypto/secp256k1/libsecp256k1/src/secp256k1.c => 0.956164383562
-crypto/secp256k1/libsecp256k1/src/num.h => 0.95393258427
-crypto/secp256k1/libsecp256k1/src/scalar_impl.h => 0.95308268281
-crypto/secp256k1/libsecp256k1/src/ecmult_gen_impl.h => 0.983955269235
-crypto/secp256k1/libsecp256k1/src/eckey_impl.h => 0.574579642018
-crypto/secp256k1/libsecp256k1/src/hash_impl.h => 0.999132834056
-crypto/secp256k1/libsecp256k1/src/scalar_4x64_impl.h => 0.997423352903
-crypto/secp256k1/libsecp256k1/src/ecmult_impl.h => 0.983081418419
-crypto/secp256k1/libsecp256k1/src/testrand_impl.h => 0.667335674862
-crypto/secp256k1/libsecp256k1/src/scalar.h => 0.993555203381
-crypto/secp256k1/libsecp256k1/src/bench_internal.c => 0.96480299614
-crypto/secp256k1/libsecp256k1/src/bench_verify.c => 0.760883280757
-crypto/secp256k1/libsecp256k1/src/util.h => 0.984969053935
-crypto/secp256k1/libsecp256k1/src/testrand.h => 0.827392871446
-crypto/secp256k1/libsecp256k1/src/field_10x26_impl.h => 0.998267280292
-crypto/secp256k1/libsecp256k1/src/field_5x52_impl.h => 0.996660077704
-crypto/secp256k1/libsecp256k1/src/group_impl.h => 0.945424592456
-crypto/secp256k1/libsecp256k1/src/bench_ecdh.c => 0.976138828633
-crypto/secp256k1/libsecp256k1/src/field.h => 0.962539273342
-crypto/secp256k1/libsecp256k1/src/ecdsa.h => 0.922471467926
-crypto/secp256k1/libsecp256k1/src/modules/ecdh/tests_impl.h => 0.839393939394
-crypto/secp256k1/libsecp256k1/src/modules/ecdh/Makefile.am.include => 0.938230383973
-crypto/secp256k1/libsecp256k1/src/modules/ecdh/main_impl.h => 0.993633952255
-crypto/secp256k1/libsecp256k1/src/modules/recovery/tests_impl.h => 0.783940197733
-crypto/secp256k1/libsecp256k1/src/modules/recovery/Makefile.am.include => 0.938461538462
-crypto/secp256k1/libsecp256k1/src/modules/recovery/main_impl.h => 0.895355086372
-crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.h => 0.246009389671
-crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.c => 0.117574161568
-crypto/secp256k1/libsecp256k1/src/java/org/bitcoin/NativeSecp256k1.java => 0.235103046595
-crypto/secp256k1/libsecp256k1/include/secp256k1.h => 0.969415455149
-crypto/secp256k1/libsecp256k1/include/secp256k1_recovery.h => 0.997119385469
-crypto/secp256k1/libsecp256k1/include/secp256k1_ecdh.h => 0.953798767967
-common/format.go => 0.998276456394
-common/types_test.go => 0.937366686058
-common/bytes_test.go => 0.997499553492
-common/types.go => 0.924075531078
-common/bytes.go => 0.999256505576
-common/big_test.go => 0.991426344505
-common/math/dist_test.go => 0.978545887962
-common/compiler/solidity.go => 0.975614066089
-common/compiler/solidity_test.go => 0.929750375119
-eth/sync.go => 0.998003992016
-eth/backend_test.go => 0.990273101384
-eth/helper_test.go => 0.982259427079
-eth/api_backend.go => 0.962946974602
-eth/handler.go => 0.987291849255
-eth/handler_test.go => 0.992954107755
-eth/protocol.go => 0.998636983189
-eth/protocol_test.go => 0.999734994037
-eth/db_upgrade.go => 0.999907398833
-eth/bad_block.go => 0.999587968686
-eth/backend.go => 0.952573829459
-eth/bind.go => 0.989124714962
-eth/api.go => 0.884523701759
-eth/fetcher/fetcher_test.go => 0.998225921443
-eth/filters/filter_system_test.go => 0.832100098447
-eth/filters/filter.go => 0.878231339663
-eth/filters/filter_test.go => 0.970395910118
-eth/filters/filter_system.go => 0.814859197124
-eth/filters/api.go => 0.975630170943
-eth/filters/api_test.go => 0.991248541424
-eth/downloader/downloader_test.go => 0.978745272701
-eth/downloader/peer.go => 0.999840781233
-eth/downloader/downloader.go => 0.991882451336
-eth/downloader/queue.go => 0.994335736354
-ethclient/ethclient.go => 0.969704556835
-ethclient/ethclient_test.go => 0.592820512821
+Makefile => 0.977112485085 
+
+vendor.conf => 0.728567794454 
+
+.gitignore => 0.994464944649 
+
+appveyor.yml => 0.720138488171 
+
+VERSION => 0.833333333333 
+
+README.md => 0.555308028447 
+
+interfaces.go => 0.933380402441 
+
+.mailmap => 0.844064386318 
+
+AUTHORS => 0.719160104987 
+
+.travis.yml => 0.336860068259 
+
+trie/sync.go => 0.992237196765 
+
+trie/hasher.go => 1.0 
+
+trie/trie.go => 0.997552557264 
+
+trie/sync_test.go => 0.99719814377 
+
+trie/encoding.go => 0.999463615233 
+
+trie/iterator_test.go => 0.999525391552 
+
+trie/trie_test.go => 0.996974174935 
+
+whisper/whisperv5/message.go => 0.99335780458 
+
+whisper/whisperv5/message_test.go => 0.908453303802 
+
+whisper/whisperv5/whisper.go => 0.959877435393 
+
+whisper/whisperv5/envelope.go => 0.989672599429 
+
+whisper/whisperv5/whisper_test.go => 0.877927017711 
+
+whisper/whisperv5/benchmarks_test.go => 0.965661641541 
+
+whisper/whisperv5/doc.go => 0.965740142211 
+
+whisper/whisperv5/filter.go => 0.959339894622 
+
+whisper/whisperv5/filter_test.go => 0.938699690402 
+
+whisper/whisperv5/peer.go => 0.98972043424 
+
+whisper/whisperv5/peer_test.go => 0.984287520318 
+
+whisper/whisperv5/topic_test.go => 0.989748743719 
+
+whisper/whisperv5/topic.go => 0.973273942094 
+
+whisper/shhapi/api_test.go => 0.42419250456 
+
+whisper/shhapi/api.go => 0.970473575375 
+
+whisper/whisperv2/envelope_test.go => 0.990726268626 
+
+whisper/whisperv2/message_test.go => 0.997246262785 
+
+whisper/whisperv2/filter.go => 0.996067214873 
+
+whisper/whisperv2/filter_test.go => 0.99618164462 
+
+whisper/whisperv2/peer.go => 0.999714421704 
+
+whisper/whisperv2/peer_test.go => 0.999803729146 
+
+whisper/whisperv2/topic_test.go => 0.968546637744 
+
+whisper/whisperv2/api.go => 0.987799011676 
+
+rpc/subscription.go => 1.0 
+
+rpc/json.go => 0.985508416421 
+
+rpc/types.go => 0.82583512931 
+
+rpc/server.go => 0.999597072057 
+
+rpc/subscription_test.go => 0.999204093235 
+
+rpc/client.go => 0.998360046356 
+
+accounts/abi/argument.go => 0.982703847511 
+
+accounts/abi/abi.go => 0.925532348031 
+
+accounts/abi/reflect.go => 0.973799894496 
+
+accounts/abi/type.go => 0.935528664947 
+
+accounts/abi/abi_test.go => 0.959917751113 
+
+accounts/abi/event.go => 0.963291139241 
+
+accounts/abi/packing.go => 0.997235023041 
+
+accounts/abi/bind/auth.go => 0.986823529412 
+
+accounts/abi/bind/util_test.go => 0.993390950686 
+
+accounts/abi/bind/bind_test.go => 0.972432864519 
+
+accounts/abi/bind/template.go => 0.851066404477 
+
+accounts/abi/bind/base.go => 0.996311259441 
+
+accounts/abi/bind/bind.go => 0.745989470424 
+
+accounts/abi/bind/backend.go => 0.999787640688 
+
+accounts/abi/bind/backends/simulated.go => 0.964371202357 
+
+errs/errors.go => 0.885793871866 
+
+errs/errors_test.go => 0.851877133106 
+
+event/event_test.go => 0.967829326109 
+
+event/event.go => 0.963283352557 
+
+event/filter/generic_filter.go => 0.998958694898 
+
+console/console_test.go => 0.998245697217 
+
+console/prompter.go => 0.997817476356 
+
+console/console.go => 0.993385121612 
+
+console/bridge.go => 0.982407037185 
+
+compression/rle/read_write.go => 0.994087504927 
+
+.git/index => 0.934161191795 
+
+.git/HEAD => 0.823529411765 
+
+.git/packed-refs => 0.111462951235 
+
+.git/config => 0.872675250358 
+
+.git/refs/heads/master => 0.658536585366 
+
+.git/logs/HEAD => 0.4 
+
+.git/logs/refs/remotes/origin/HEAD => 0.869778869779 
+
+.git/logs/refs/heads/master => 0.869778869779 
+
+.github/CONTRIBUTING.md => 0.711349419124 
+
+.github/ISSUE_TEMPLATE.md => 0.940711462451 
+
+swarm/swarm.go => 0.975473801561 
+
+swarm/api/api.go => 0.975075663165 
+
+swarm/api/config_test.go => 0.962147780868 
+
+swarm/api/filesystem.go => 0.983314285714 
+
+swarm/api/manifest.go => 0.992228854601 
+
+swarm/api/config.go => 0.953900263786 
+
+swarm/api/filesystem_test.go => 0.997287032013 
+
+swarm/api/http/roundtripper.go => 0.988316745997 
+
+swarm/api/http/roundtripper_test.go => 0.977249747219 
+
+swarm/api/http/server.go => 0.909716342083 
+
+swarm/storage/chunker.go => 0.997338935574 
+
+swarm/storage/memstore.go => 0.965125254368 
+
+swarm/storage/common_test.go => 0.999316239316 
+
+swarm/storage/localstore.go => 0.985769728331 
+
+swarm/storage/dbstore.go => 0.939481268012 
+
+swarm/storage/dbstore_test.go => 0.998657460683 
+
+swarm/storage/dpa.go => 0.995263266287 
+
+swarm/storage/types.go => 0.998902730265 
+
+swarm/storage/netstore.go => 0.993172915501 
+
+swarm/storage/dpa_test.go => 0.999037304452 
+
+swarm/network/syncdb_test.go => 0.99138313938 
+
+swarm/network/depo.go => 0.996285336523 
+
+swarm/network/hive.go => 0.989806678383 
+
+swarm/network/protocol.go => 0.995624111148 
+
+swarm/network/syncer.go => 0.999784613577 
+
+swarm/network/protocol_test.go => 0.998763906057 
+
+swarm/network/kademlia/kademlia_test.go => 0.999416538482 
+
+internal/web3ext/web3ext.go => 0.796662211466 
+
+internal/ethapi/tracer.go => 0.99830517741 
+
+internal/ethapi/backend.go => 0.980517937752 
+
+internal/ethapi/tracer_test.go => 0.807933718303 
+
+internal/ethapi/api.go => 0.955788600098 
+
+internal/jsre/pretty.go => 0.997905612957 
+
+internal/jsre/jsre.go => 0.991482112436 
+
+internal/build/archive.go => 0.974000687207 
+
+internal/build/util.go => 0.92661611618 
+
+internal/build/env.go => 0.982429139413 
+
+params/gas_table.go => 0.903944315545 
+
+params/protocol_params.go => 0.991922755547 
+
+params/util.go => 0.935965578335 
+
+build/env.sh => 0.925160370634 
+
+build/ci.go => 0.643906850554 
+
+build/ci-notes.md => 0.995230524642 
+
+build/update-license.go => 0.997753818509 
+
+logger/glog/glog.go => 0.99994622644 
+
+containers/docker/master-alpine/Dockerfile => 0.913770913771 
+
+containers/docker/develop-alpine/Dockerfile => 0.95213454075 
+
+containers/docker/develop-ubuntu/Dockerfile => 0.833855799373 
+
+containers/docker/master-ubuntu/Dockerfile => 0.82340862423 
+
+node/config_test.go => 0.998086490624 
+
+node/node.go => 0.994838806193 
+
+node/node_example_test.go => 0.998566993074 
+
+node/config.go => 0.962914455091 
+
+node/node_test.go => 0.999133871055 
+
+node/api.go => 0.99332391209 
+
+core/chain_pow_test.go => 0.993904916701 
+
+core/genesis.go => 0.871891301711 
+
+core/block_validator_test.go => 0.979231758868 
+
+core/bench_test.go => 0.991086129563 
+
+core/tx_pool.go => 0.976351207914 
+
+core/block_validator.go => 0.837512327785 
+
+core/dao.go => 0.994923857868 
+
+core/tx_list.go => 0.999871536848 
+
+core/chain_makers.go => 0.991525838844 
+
+core/blocks.go => 0.957514846962 
+
+core/headerchain.go => 0.932430044183 
+
+core/blockchain_test.go => 0.90503844074 
+
+core/events.go => 0.962650348175 
+
+core/default_genesis.go => 0.997140993839 
+
+core/tx_pool_test.go => 0.811272898074 
+
+core/state_processor.go => 0.935503525111 
+
+core/chain_makers_test.go => 0.971787637856 
+
+core/types.go => 0.873303167421 
+
+core/database_util_test.go => 0.994140320389 
+
+core/tx_list_test.go => 0.996082820369 
+
+core/database_util.go => 0.967773901195 
+
+core/blockchain.go => 0.987382601271 
+
+core/state_transition.go => 0.925334125334 
+
+core/state/sync.go => 0.972719869707 
+
+core/state/iterator.go => 0.998619873817 
+
+core/state/statedb.go => 0.966092531088 
+
+core/state/statedb_test.go => 0.984489318115 
+
+core/state/sync_test.go => 0.996500358938 
+
+core/state/journal.go => 0.933644548183 
+
+core/state/iterator_test.go => 0.999207816213 
+
+core/state/managed_state_test.go => 0.996569188041 
+
+core/state/state_object.go => 0.96620296891 
+
+core/state/state_test.go => 0.999026542929 
+
+core/vm/contracts.go => 0.917533620908 
+
+core/vm/opcodes.go => 0.990428319341 
+
+core/vm/errors.go => 0.93900833699 
+
+core/vm/stack.go => 0.975641583297 
+
+core/vm/vm.go => 0.653246540124 
+
+core/vm/vm_jit_fake.go => 0.922128851541 
+
+core/vm/vm_jit.go => 0.998328845975 
+
+core/vm/logger_test.go => 0.976397515528 
+
+core/vm/instructions.go => 0.926602814699 
+
+core/vm/environment.go => 0.571645089991 
+
+core/vm/logger.go => 0.981887078439 
+
+core/vm/jump_table.go => 0.438189658099 
+
+core/vm/gas.go => 0.998646296654 
+
+core/vm/contract.go => 0.979342627455 
+
+core/vm/runtime/runtime_test.go => 0.999044281618 
+
+core/vm/runtime/env.go => 0.54930875576 
+
+core/vm/runtime/runtime.go => 0.935692412385 
+
+core/types/transaction_test.go => 0.918760315423 
+
+core/types/block.go => 0.980282938254 
+
+core/types/bloom9.go => 0.957216028924 
+
+core/types/receipt.go => 0.994771643857 
+
+core/types/block_test.go => 0.975 
+
+core/types/transaction.go => 0.92433354277 
+
+tests/init.go => 0.942865345966 
+
+tests/vm_test_util.go => 0.986799501868 
+
+tests/block_test_util.go => 0.997054120024 
+
+tests/transaction_test_util.go => 0.983890038427 
+
+tests/transaction_test.go => 0.701766420854 
+
+tests/vm_test.go => 0.996900025833 
+
+tests/state_test_util.go => 0.948488908739 
+
+tests/block_test.go => 0.585379568885 
+
+tests/util.go => 0.758123640882 
+
+tests/state_test.go => 0.771015929523 
+
+tests/files/VMTests/vmIOandFlowOperationsTest.json => 0.999978688717 
+
+tests/files/VMTests/vmPerformanceTest.json => 0.918431298072 
+
+tests/files/VMTests/vmEnvironmentalInfoTest.json => 0.999896313364 
+
+tests/files/VMTests/vmPushDupSwapTest.json => 0.993959222548 
+
+tests/files/VMTests/vmSystemOperationsTest.json => 0.983965324306 
+
+tests/files/StateTests/stPreCompiledContracts.json => 0.999850490604 
+
+tests/files/StateTests/stSystemOperationsTest.json => 0.999909957798 
+
+tests/files/StateTests/EIP150/stMemExpandingEIPCalls.json => 0.999083718234 
+
+tests/files/StateTests/EIP150/stEIPSpecificTest.json => 0.88140317951 
+
+tests/files/StateTests/EIP150/stEIPSingleCodeGasPrices.json => 0.998910763524 
+
+tests/files/StateTests/EIP150/Homestead/stPreCompiledContracts.json => 0.998792945341 
+
+tests/files/StateTests/EIP150/Homestead/stBoundsTest.json => 0.999155228416 
+
+tests/files/StateTests/EIP150/Homestead/stQuadraticComplexityTest.json => 0.999954299224 
+
+tests/files/StateTests/EIP150/Homestead/stTransactionTest.json => 0.998491086633 
+
+tests/files/StateTests/EIP150/Homestead/stLogTests.json => 0.999190606341 
+
+tests/files/StateTests/EIP150/Homestead/stCallCodes.json => 0.999222260629 
+
+tests/files/StateTests/EIP150/Homestead/stRecursiveCreate.json => 0.999947549697 
+
+tests/files/StateTests/EIP150/Homestead/stDelegatecallTest.json => 0.998866855524 
+
+tests/files/StateTests/EIP150/Homestead/stInitCodeTest.json => 0.995596400536 
+
+tests/files/StateTests/EIP150/Homestead/stWalletTest.json => 0.999654420798 
+
+tests/files/StateTests/EIP150/Homestead/stSystemOperationsTest.json => 0.999499319618 
+
+tests/files/StateTests/EIP150/Homestead/stCallCreateCallCodeTest.json => 0.998949221594 
+
+tests/files/StateTests/EIP150/Homestead/stSpecialTest.json => 0.999806772965 
+
+tests/files/StateTests/EIP150/Homestead/stMemoryTest.json => 0.998657487091 
+
+tests/files/StateTests/EIP150/Homestead/stCallDelegateCodes.json => 0.999235621782 
+
+tests/files/StateTests/EIP150/Homestead/stHomeSteadSpecific.json => 0.998669505056 
+
+tests/files/StateTests/EIP150/Homestead/stRefundTest.json => 0.987661394283 
+
+tests/files/StateTests/EIP150/Homestead/stCallDelegateCodesCallCode.json => 0.999233756969 
+
+tests/files/StateTests/Homestead/stPreCompiledContracts.json => 0.999850717622 
+
+tests/files/StateTests/Homestead/stTransactionTest.json => 0.986811625874 
+
+tests/files/StateTests/Homestead/stDelegatecallTest.json => 0.999765691059 
+
+tests/files/StateTests/Homestead/stSystemOperationsTest.json => 0.999274301835 
+
+tests/files/TransactionTests/ttTransactionTest.json => 0.966114150404 
+
+tests/files/TransactionTests/Homestead/ttTransactionTest.json => 0.966980215877 
+
+tests/files/BlockchainTests/bcInvalidHeaderTest.json => 0.929272126172 
+
+tests/files/BlockchainTests/TestNetwork/bcTheDaoTest.json => 0.999997125388 
+
+tests/files/BlockchainTests/TestNetwork/bcEIP150Test.json => 0.999995756508 
+
+tests/files/BlockchainTests/Homestead/bcShanghaiLove.json => 0.999999641505 
+
+tests/files/BlockchainTests/Homestead/bcSuicideIssue.json => 0.767977879444 
+
+tests/files/BlockchainTests/Homestead/bcInvalidHeaderTest.json => 0.925803792251 
+
+vendor/github.com/huin/goupnp/README.md => 0.925287356322 
+
+vendor/github.com/huin/goupnp/ssdp/registry.go => 0.999865356133 
+
+vendor/github.com/rcrowley/go-metrics/registry.go => 0.999865501009 
+
+vendor/github.com/rcrowley/go-metrics/sample.go => 0.995872720011 
+
+vendor/github.com/rcrowley/go-metrics/gauge.go => 0.999823788546 
+
+vendor/github.com/fatih/color/color.go => 0.908426036414 
+
+vendor/github.com/fatih/color/doc.go => 0.936842105263 
+
+vendor/github.com/fatih/color/README.md => 0.941585535466 
+
+vendor/github.com/nsf/termbox-go/termbox.go => 0.998508069985 
+
+vendor/github.com/nsf/termbox-go/README.md => 0.986472844741 
+
+vendor/github.com/nsf/termbox-go/api.go => 0.999082874771 
+
+vendor/github.com/gizak/termui/block_windows.go => 0.988571428571 
+
+vendor/github.com/gizak/termui/block.go => 0.999250796029 
+
+vendor/github.com/gizak/termui/sparkline.go => 0.998934185985 
+
+vendor/github.com/gizak/termui/block_common.go => 0.992409867173 
+
+vendor/github.com/gizak/termui/barchart.go => 0.998861696073 
+
+vendor/github.com/gizak/termui/mbarchart.go => 0.999358974359 
+
+vendor/github.com/gizak/termui/buffer.go => 0.99721448468 
+
+vendor/github.com/gizak/termui/doc.go => 0.993893129771 
+
+vendor/github.com/gizak/termui/theme.go => 0.998742533794 
+
+vendor/github.com/gizak/termui/linechart_others.go => 0.984962406015 
+
+vendor/github.com/gizak/termui/canvas.go => 0.997041420118 
+
+vendor/github.com/gizak/termui/list.go => 0.998064828254 
+
+vendor/github.com/gizak/termui/events.go => 0.999313304721 
+
+vendor/github.com/gizak/termui/linechart_windows.go => 0.984555984556 
+
+vendor/github.com/gizak/termui/grid.go => 0.99926335175 
+
+vendor/github.com/gizak/termui/glide.yaml => 0.916666666667 
+
+vendor/github.com/gizak/termui/helper.go => 0.999048525214 
+
+vendor/github.com/gizak/termui/render.go => 0.868014647349 
+
+vendor/github.com/gizak/termui/textbuilder.go => 0.999365079365 
+
+vendor/github.com/gizak/termui/widget.go => 0.997518610422 
+
+vendor/github.com/gizak/termui/linechart.go => 0.999466025898 
+
+vendor/github.com/gizak/termui/pos.go => 0.997594708358 
+
+vendor/github.com/gizak/termui/par.go => 0.997501561524 
+
+vendor/github.com/gizak/termui/glide.lock => 0.691374663073 
+
+vendor/github.com/gizak/termui/gauge.go => 0.998247919404 
+
+vendor/github.com/pborman/uuid/README.md => 0.999239543726 
+
+vendor/github.com/peterh/liner/common.go => 0.970376301041 
+
+vendor/github.com/peterh/liner/input_windows.go => 0.961911401229 
+
+vendor/github.com/peterh/liner/width.go => 0.926543751829 
+
+vendor/github.com/peterh/liner/line.go => 0.981271723574 
+
+vendor/github.com/peterh/liner/input.go => 0.985487301389 
+
+vendor/github.com/syndtr/goleveldb/leveldb/session_util.go => 0.965839626034 
+
+vendor/github.com/syndtr/goleveldb/leveldb/session.go => 0.994663421028 
+
+vendor/github.com/syndtr/goleveldb/leveldb/version.go => 0.992370499264 
+
+vendor/github.com/mattn/go-colorable/colorable_windows.go => 0.984725824622 
+
+vendor/github.com/mattn/go-colorable/colorable_others.go => 0.711453744493 
+
+vendor/github.com/mattn/go-colorable/noncolorable.go => 0.916822429907 
+
+vendor/github.com/davecgh/go-spew/LICENSE => 0.99868938401 
+
+vendor/github.com/davecgh/go-spew/README.md => 0.966741540468 
+
+vendor/github.com/davecgh/go-spew/spew/common.go => 0.999758722193 
+
+vendor/github.com/davecgh/go-spew/spew/format.go => 0.999779298168 
+
+vendor/github.com/davecgh/go-spew/spew/doc.go => 0.97757793765 
+
+vendor/github.com/davecgh/go-spew/spew/bypass.go => 0.999567959907 
+
+vendor/github.com/davecgh/go-spew/spew/config.go => 0.984581323634 
+
+vendor/github.com/davecgh/go-spew/spew/dump.go => 0.996658676545 
+
+vendor/github.com/davecgh/go-spew/spew/bypasssafe.go => 0.998556165175 
+
+vendor/github.com/davecgh/go-spew/spew/spew.go => 0.999580993883 
+
+vendor/gopkg.in/urfave/cli.v1/app.go => 0.982836125868 
+
+vendor/gopkg.in/urfave/cli.v1/cli.go => 0.93302891933 
+
+vendor/gopkg.in/urfave/cli.v1/flag.go => 0.943710084658 
+
+vendor/gopkg.in/urfave/cli.v1/help.go => 0.958082133485 
+
+vendor/gopkg.in/urfave/cli.v1/runtests => 0.905019593208 
+
+vendor/gopkg.in/urfave/cli.v1/errors.go => 0.917541229385 
+
+vendor/gopkg.in/urfave/cli.v1/CHANGELOG.md => 0.894710444076 
+
+vendor/gopkg.in/urfave/cli.v1/appveyor.yml => 0.973952434881 
+
+vendor/gopkg.in/urfave/cli.v1/command.go => 0.971386967601 
+
+vendor/gopkg.in/urfave/cli.v1/context.go => 0.651062740077 
+
+vendor/gopkg.in/urfave/cli.v1/.travis.yml => 0.90310786106 
+
+vendor/gopkg.in/urfave/cli.v1/README.md => 0.983325531468 
+
+vendor/gopkg.in/check.v1/check.go => 0.998767928958 
+
+vendor/gopkg.in/check.v1/checkers.go => 0.999960036766 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go => 0.997462848858 
+
+vendor/golang.org/x/sys/unix/types_linux.go => 0.992613313519 
+
+vendor/golang.org/x/sys/unix/mksysnum_linux.pl => 0.922048997773 
+
+vendor/golang.org/x/sys/unix/syscall_linux.go => 0.976340477984 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go => 0.997383948087 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go => 0.994897765398 
+
+vendor/golang.org/x/sys/unix/mkerrors.sh => 0.998227793387 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go => 0.994694017274 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go => 0.993770178709 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go => 0.993600224226 
+
+vendor/golang.org/x/sys/unix/syscall_unix.go => 0.975670344122 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go => 0.997462960319 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_386.go => 0.997120311156 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go => 0.995180578809 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go => 0.993769612079 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go => 0.997452215249 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go => 0.994460404954 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go => 0.995045488075 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go => 0.993644166087 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go => 0.993794446709 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go => 0.997384066587 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go => 0.993599028174 
+
+vendor/golang.org/x/sys/unix/syscall_linux_amd64.go => 0.992105263158 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go => 0.99489834671 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_386.go => 0.99355081674 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go => 0.997330066228 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go => 0.993768478508 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go => 0.997073541522 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_386.go => 0.994457814756 
+
+vendor/golang.org/x/sys/unix/zerrors_linux_arm.go => 0.994205857404 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go => 0.99742368647 
+
+vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go => 0.997291244034 
+
+vendor/golang.org/x/sys/unix/flock_linux_32bit.go => 0.968085106383 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_arm.go => 0.993493850026 
+
+vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go => 0.993814060595 
+
+vendor/golang.org/x/sys/unix/syscall_bsd.go => 0.991705240921 
+
+vendor/golang.org/x/text/language/tables.go => 0.999875560754 
+
+vendor/golang.org/x/text/internal/gen/code.go => 0.970810210877 
+
+vendor/golang.org/x/net/websocket/websocket.go => 0.992367045549 
+
+vendor/golang.org/x/tools/imports/fix.go => 0.999324729892 
+
+contracts/chequebook/cheque_test.go => 0.9978404643 
+
+contracts/chequebook/cheque.go => 0.999953246996 
+
+contracts/release/release.go => 0.973810526316 
+
+contracts/release/contract.sol => 0.999945843488 
+
+contracts/ens/ens_test.go => 0.997462514418 
+
+ethdb/memory_database.go => 0.99944842802 
+
+ethdb/database.go => 0.942737038767 
+
+metrics/disk_linux.go => 0.989050165521 
+
+metrics/metrics.go => 0.970303352847 
+
+p2p/server.go => 0.98622313929 
+
+p2p/dial.go => 0.946199169323 
+
+p2p/dial_test.go => 0.972888425443 
+
+p2p/peer_test.go => 0.999834646971 
+
+p2p/rlpx.go => 0.999630168397 
+
+p2p/discover/udp_test.go => 0.974248206014 
+
+p2p/discover/udp.go => 0.986346438559 
+
+p2p/discover/database_test.go => 0.999740977379 
+
+p2p/discover/node.go => 0.998286245899 
+
+p2p/discover/database.go => 0.999386986601 
+
+p2p/discover/table_test.go => 0.998217271735 
+
+p2p/discover/table.go => 0.999897933146 
+
+p2p/nat/natpmp.go => 0.99943019943 
+
+p2p/nat/nat_test.go => 0.995735607676 
+
+light/odr.go => 0.764843142339 
+
+light/trie.go => 0.975515818432 
+
+light/state.go => 0.955969234199 
+
+light/state_object.go => 0.932062592569 
+
+light/state_test.go => 0.982028506507 
+
+cmd/geth/chaincmd.go => 0.906409903714 
+
+cmd/geth/usage.go => 0.966831460674 
+
+cmd/geth/consolecmd.go => 0.979996720774 
+
+cmd/geth/accountcmd_test.go => 0.988606573906 
+
+cmd/geth/main.go => 0.900245607406 
+
+cmd/geth/accountcmd.go => 0.965662968833 
+
+cmd/geth/consolecmd_test.go => 0.997530022996 
+
+cmd/geth/monitorcmd.go => 0.996765474766 
+
+cmd/abigen/main.go => 0.951740139211 
+
+cmd/bootnode/main.go => 0.898844388159 
+
+cmd/evm/main.go => 0.78559033803 
+
+cmd/utils/cmd.go => 0.962512495835 
+
+cmd/utils/customflags.go => 0.985762711864 
+
+cmd/utils/flags.go => 0.947900071184 
+
+cmd/ethtest/main.go => 0.980158392234 
+
+cmd/disasm/main.go => 0.930129798398 
+
+cmd/gethrpctest/main.go => 0.99201385548 
+
+crypto/crypto_test.go => 0.944951734933 
+
+crypto/crypto.go => 0.949636182052 
+
+crypto/ecies/asn1.go => 0.999375433727 
+
+crypto/ecies/ecies_test.go => 0.999273563775 
+
+crypto/ecies/ecies.go => 0.999185750636 
+
+crypto/sha3/sha3_test.go => 0.999774926851 
+
+crypto/secp256k1/secp256.go => 0.780012771392 
+
+crypto/secp256k1/secp256_test.go => 0.975323323919 
+
+crypto/secp256k1/curve.go => 0.960773166572 
+
+crypto/secp256k1/libsecp256k1/libsecp256k1.pc.in => 0.992295839753 
+
+crypto/secp256k1/libsecp256k1/.gitignore => 0.816568047337 
+
+crypto/secp256k1/libsecp256k1/configure.ac => 0.854964698813 
+
+crypto/secp256k1/libsecp256k1/Makefile.am => 0.759230252853 
+
+crypto/secp256k1/libsecp256k1/.travis.yml => 0.897058823529 
+
+crypto/secp256k1/libsecp256k1/README.md => 0.998382923674 
+
+crypto/secp256k1/libsecp256k1/src/field_5x52_int128_impl.h => 0.999891197911 
+
+crypto/secp256k1/libsecp256k1/src/eckey.h => 0.889871086556 
+
+crypto/secp256k1/libsecp256k1/src/ecmult_const_impl.h => 0.960120229725 
+
+crypto/secp256k1/libsecp256k1/src/tests.c => 0.628760895477 
+
+crypto/secp256k1/libsecp256k1/src/field_impl.h => 0.899956038435 
+
+crypto/secp256k1/libsecp256k1/src/ecdsa_impl.h => 0.906726085605 
+
+crypto/secp256k1/libsecp256k1/src/hash.h => 0.999124087591 
+
+crypto/secp256k1/libsecp256k1/src/num_gmp_impl.h => 0.95840328297 
+
+crypto/secp256k1/libsecp256k1/src/group.h => 0.989475035297 
+
+crypto/secp256k1/libsecp256k1/src/secp256k1.c => 0.956164383562 
+
+crypto/secp256k1/libsecp256k1/src/num.h => 0.95393258427 
+
+crypto/secp256k1/libsecp256k1/src/scalar_impl.h => 0.95308268281 
+
+crypto/secp256k1/libsecp256k1/src/ecmult_gen_impl.h => 0.983955269235 
+
+crypto/secp256k1/libsecp256k1/src/eckey_impl.h => 0.574579642018 
+
+crypto/secp256k1/libsecp256k1/src/hash_impl.h => 0.999132834056 
+
+crypto/secp256k1/libsecp256k1/src/scalar_4x64_impl.h => 0.997423352903 
+
+crypto/secp256k1/libsecp256k1/src/ecmult_impl.h => 0.983081418419 
+
+crypto/secp256k1/libsecp256k1/src/testrand_impl.h => 0.667335674862 
+
+crypto/secp256k1/libsecp256k1/src/scalar.h => 0.993555203381 
+
+crypto/secp256k1/libsecp256k1/src/bench_internal.c => 0.96480299614 
+
+crypto/secp256k1/libsecp256k1/src/bench_verify.c => 0.760883280757 
+
+crypto/secp256k1/libsecp256k1/src/util.h => 0.984969053935 
+
+crypto/secp256k1/libsecp256k1/src/testrand.h => 0.827392871446 
+
+crypto/secp256k1/libsecp256k1/src/field_10x26_impl.h => 0.998267280292 
+
+crypto/secp256k1/libsecp256k1/src/field_5x52_impl.h => 0.996660077704 
+
+crypto/secp256k1/libsecp256k1/src/group_impl.h => 0.945424592456 
+
+crypto/secp256k1/libsecp256k1/src/bench_ecdh.c => 0.976138828633 
+
+crypto/secp256k1/libsecp256k1/src/field.h => 0.962539273342 
+
+crypto/secp256k1/libsecp256k1/src/ecdsa.h => 0.922471467926 
+
+crypto/secp256k1/libsecp256k1/src/modules/ecdh/tests_impl.h => 0.839393939394 
+
+crypto/secp256k1/libsecp256k1/src/modules/ecdh/Makefile.am.include => 0.938230383973 
+
+crypto/secp256k1/libsecp256k1/src/modules/ecdh/main_impl.h => 0.993633952255 
+
+crypto/secp256k1/libsecp256k1/src/modules/recovery/tests_impl.h => 0.783940197733 
+
+crypto/secp256k1/libsecp256k1/src/modules/recovery/Makefile.am.include => 0.938461538462 
+
+crypto/secp256k1/libsecp256k1/src/modules/recovery/main_impl.h => 0.895355086372 
+
+crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.h => 0.246009389671 
+
+crypto/secp256k1/libsecp256k1/src/java/org_bitcoin_NativeSecp256k1.c => 0.117574161568 
+
+crypto/secp256k1/libsecp256k1/src/java/org/bitcoin/NativeSecp256k1.java => 0.235103046595 
+
+crypto/secp256k1/libsecp256k1/include/secp256k1.h => 0.969415455149 
+
+crypto/secp256k1/libsecp256k1/include/secp256k1_recovery.h => 0.997119385469 
+
+crypto/secp256k1/libsecp256k1/include/secp256k1_ecdh.h => 0.953798767967 
+
+common/format.go => 0.998276456394 
+
+common/types_test.go => 0.937366686058 
+
+common/bytes_test.go => 0.997499553492 
+
+common/types.go => 0.924075531078 
+
+common/bytes.go => 0.999256505576 
+
+common/big_test.go => 0.991426344505 
+
+common/math/dist_test.go => 0.978545887962 
+
+common/compiler/solidity.go => 0.975614066089 
+
+common/compiler/solidity_test.go => 0.929750375119 
+
+eth/sync.go => 0.998003992016 
+
+eth/backend_test.go => 0.990273101384 
+
+eth/helper_test.go => 0.982259427079 
+
+eth/api_backend.go => 0.962946974602 
+
+eth/handler.go => 0.987291849255 
+
+eth/handler_test.go => 0.992954107755 
+
+eth/protocol.go => 0.998636983189 
+
+eth/protocol_test.go => 0.999734994037 
+
+eth/db_upgrade.go => 0.999907398833 
+
+eth/bad_block.go => 0.999587968686 
+
+eth/backend.go => 0.952573829459 
+
+eth/bind.go => 0.989124714962 
+
+eth/api.go => 0.884523701759 
+
+eth/fetcher/fetcher_test.go => 0.998225921443 
+
+eth/filters/filter_system_test.go => 0.832100098447 
+
+eth/filters/filter.go => 0.878231339663 
+
+eth/filters/filter_test.go => 0.970395910118 
+
+eth/filters/filter_system.go => 0.814859197124 
+
+eth/filters/api.go => 0.975630170943 
+
+eth/filters/api_test.go => 0.991248541424 
+
+eth/downloader/downloader_test.go => 0.978745272701 
+
+eth/downloader/peer.go => 0.999840781233 
+
+eth/downloader/downloader.go => 0.991882451336 
+
+eth/downloader/queue.go => 0.994335736354 
+
+ethclient/ethclient.go => 0.969704556835 
+
+ethclient/ethclient_test.go => 0.592820512821 

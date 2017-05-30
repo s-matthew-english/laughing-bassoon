@@ -90,6 +90,6 @@ if __name__ == '__main__':
     print('-----------------------------' + '\n')
     print('RELATIVE DIFFERENCE FOR <<IN BOTH, BUT DIFFERENT>>:' + '\n')
     for f in d.files:
-        print f, "=>", percentage_difference(os.path.join('go-ethereum', f), os.path.join('quorum', f))
+        print f, "=>", percentage_difference(os.path.join('go-ethereum', f), os.path.join('quorum', f)), '\n'
 
     

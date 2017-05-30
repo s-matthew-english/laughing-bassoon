@@ -76,19 +76,19 @@ def _accumulate_directories(dcmp, dirname, **nodes):
 
 if __name__ == '__main__':
     a, b, c, d = compare_directories('go-ethereum', 'quorum')
-    print('go-ethereum only: ' + str(len(a.files)) + '\n')
+    print('GO-ETHEREUM ONLY: ' + str(len(a.files)) + '\n')
     print(a)
     print('=============================' + '\n')
-    print('quorum only: ' + str(len(b.files)) + '\n')
+    print('QUORUM ONLY: ' + str(len(b.files)) + '\n')
     print(b)
     print('=============================' + '\n')
-    print('identical files: ' + str(len(c.files)) + '\n')
+    print('IDENTICAL FILES: ' + str(len(c.files)) + '\n')
     print(c)
     print('=============================' + '\n')
-    print('in both, but different: ' + str(len(d.files)) + '\n')
+    print('IN BOTH, BUT DIFFERENT: ' + str(len(d.files)) + '\n')
     print(d)
     print('-----------------------------' + '\n')
-    print('relative degree of divergence for <<in both, but different>>:' + '\n')
+    print('RELATIVE DIFFERENCE FOR <<IN BOTH, BUT DIFFERENT>>:' + '\n')
     for f in d.files:
         print f, "=>", percentage_difference(os.path.join('go-ethereum', f), os.path.join('quorum', f))
 

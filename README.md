@@ -1,9 +1,22 @@
 # Comparative Analysis: go-ethereum vs. quorum
 
-This document comprises an analysis of the differences between the project directories for
-go-ethereum and quorum. 
+An analysis of the differences between the project directories for go-ethereum and quorum. 
 
 ### How to interpret this document: 
+
+The following JSON-esque tree describes the directory structure of each project. 
+
+Files fall into one of four categories: 
+
+* GO-ETHEREUM ONLY: files found exclusively within the go-ethereum directory, and it's sub-directories
+
+* QUORUM ONLY: files found exclusively within the quorum directory, and it's sub-directories
+
+* IDENTICAL FILES: files that are exactly the same in both projects
+
+* IN BOTH, BUT DIFFERENT: files are found in both projects, but are *not* exactly the same, 
+   for these files we provide an addendum entitled 'RELATIVE DIFFERENCE', which describes
+   the degree to which the files are divergent between the two projects
 
 
 GO-ETHEREUM ONLY: 124

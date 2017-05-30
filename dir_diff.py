@@ -11,16 +11,16 @@ class Node(object):
         self.files = []
 
     def __str__(self):
-        return  '{\n' + Node._str(self, 1) + '}\n'
+        return  '{\n   ' + Node._str(self, 1) + '}\n'
 
     @staticmethod
     def _str(node, depth):
         string = ''
         if len(node.files) > 0:
-            string = str(node.files)
+            string = '[' + ', '.join([os.path.basename(f) for f in node.files]) + ']'
         if len(node.subdirs) > 0:
             for subdir, subnode in node.subdirs.iteritems():
-                string = '{string}\n{indent}"{subdir}": {{\n{content_indent}{content}{indent}}}'.format(
+                string = '{string}\n{indent}{subdir}: {{\n{content_indent}{content}{indent}}}'.format(
                     string=string,
                     indent='   ' * depth,
                     subdir=subdir,
@@ -44,6 +44,14 @@ def compare_directories(left, right, ignore=None):
     return left_only, right_only, same_files, diff_files
 
 
+def percentage_difference(file1, file2):
+    with open(file1) as f1, open(file2) as f2:
+        text1 = f1.read()
+        text2 = f2.read()
+    m = SequenceMatcher(None, text1, text2)
+    return m.quick_ratio()
+
+
 def _accumulate_directories(dcmp, dirname, **nodes):
     node_names = 'left_only right_only same_files diff_files'.split()
 
@@ -60,22 +68,28 @@ def _accumulate_directories(dcmp, dirname, **nodes):
                 dirname,
                 **{name : nodes[name].subdirs[dirname] for name in node_names}
             )
-            for name in  node_names:
-                nodes[name].files.extend(nodes[name].subdirs[dirname].files)
+            for name in node_names:
+                nodes[name].files.extend(
+                    [os.path.join(dirname, x) for x in nodes[name].subdirs[dirname].files]
+                )
 
 
 if __name__ == '__main__':
     a, b, c, d = compare_directories('go-ethereum', 'quorum')
     print('go-ethereum only: ' + str(len(a.files)) )
     print(a)
-    print('======================' + '\n')
+    print('=============================' + '\n')
     print('quorum only: ' + str(len(b.files)) )
     print(b)
-    print('======================' + '\n')
+    print('=============================' + '\n')
     print('identical files: ' + str(len(c.files)) )
     print(c)
-    print('======================' + '\n')
+    print('=============================' + '\n')
     print('in both, but different: ' + str(len(d.files)) )
     print(d)
+    print('-----------------------------' + '\n')
+    print('relative degree of divergence for <<in both, but different>>:' + '\n')
+    for f in d.files:
+        print f, "=>", percentage_difference(os.path.join('go-ethereum', f), os.path.join('quorum', f))
 
     

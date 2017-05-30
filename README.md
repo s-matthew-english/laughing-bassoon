@@ -38,7 +38,7 @@ An analysis of the differences between the project directories for go-ethereum a
       }
 
 
-=============================
+------
 
 GO-ETHEREUM ONLY: 124
 
@@ -869,7 +869,7 @@ GO-ETHEREUM ONLY: 124
          }
       }
 
-=============================
+------
 
 QUORUM ONLY: 95
 
@@ -2523,7 +2523,7 @@ IDENTICAL FILES: 1710
          }
       }
 
-=============================
+------
 
 IN BOTH, BUT DIFFERENT: 490
 
